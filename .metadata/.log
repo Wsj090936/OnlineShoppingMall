@@ -1,0 +1,2408 @@
+!SESSION 2017-12-14 14:22:57.944 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data G:\OnlineShoppingMall -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 14:23:04.370
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 14:23:04.373
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-14 14:23:06.007
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wushijia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2017-12-14 14:23:13.132
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out. ; version: 2.0.5.v20170613-1207
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:170)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:64)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 14:32:44.442
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 14:32:44.550
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 14:33:45.541
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 14:33:45.541
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 14:35:19.719
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 14:35:19.720
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 14:35:19.777
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 14:35:19.778
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-12-14 15:02:52.503
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 15:06:45.713
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 15:10:31.951
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 15:18:33.950
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 15:18:34.138
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 15:18:44.462
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 15:18:44.515
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 15:19:55.696
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 15:19:55.696
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 15:20:17.767
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 15:20:17.772
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 15:24:34.511
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 15:24:34.515
+!MESSAGE Non IFiles not supported yet
+!SESSION 2017-12-14 18:56:03.473 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-14 18:56:30.403
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wushijia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 18:58:45.402
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 18:58:45.465
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-12-14 19:00:03.565
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:00:25.416
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.core 4 -1 2017-12-14 19:00:42.368
+!MESSAGE Could not get the value for parameter encoding for plugin execution default-resources
+!STACK 0
+org.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-resources-plugin:2.7 or one of its dependencies could not be resolved: The following artifacts could not be resolved: org.apache.maven.doxia:doxia-logging-api:jar:1.1, org.apache.maven:maven-repository-metadata:jar:2.2.1, org.apache.maven:maven-error-diagnostics:jar:2.2.1, commons-cli:commons-cli:jar:1.2, org.apache.maven:maven-plugin-descriptor:jar:2.2.1, classworlds:classworlds:jar:1.1, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3, org.sonatype.plexus:plexus-cipher:jar:1.4, org.apache.maven:maven-artifact:jar:2.2.1, org.apache.maven:maven-settings:jar:2.2.1, org.apache.maven:maven-model:jar:2.2.1, org.apache.maven:maven-monitor:jar:2.2.1, org.codehaus.plexus:plexus-utils:jar:3.0.15, org.apache.maven.shared:maven-filtering:jar:1.2, org.apache.maven.shared:maven-shared-utils:jar:0.3, org.sonatype.plexus:plexus-build-api:jar:0.0.4, org.codehaus.plexus:plexus-interpolation:jar:1.19: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal(DefaultPluginDependenciesResolver.java:218)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve(DefaultPluginDependenciesResolver.java:149)
+	at org.eclipse.m2e.core.internal.project.registry.EclipsePluginDependenciesResolver.resolve(EclipsePluginDependenciesResolver.java:59)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.createPluginRealm(DefaultMavenPluginManager.java:400)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupPluginRealm(DefaultMavenPluginManager.java:372)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.getPluginRealm(DefaultBuildPluginManager.java:231)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMojoParameterValue(MavenImpl.java:925)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$6.call(MavenImpl.java:959)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMojoParameterValue(MavenImpl.java:957)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.addProjectSourceFolders(AbstractJavaProjectConfigurator.java:298)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.configure(AbstractJavaProjectConfigurator.java:125)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createSimpleProject(ProjectConfigurationManager.java:691)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$4.doCreateMavenProjects(MavenProjectWizard.java:224)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:50)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:62)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:54)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: The following artifacts could not be resolved: org.apache.maven.doxia:doxia-logging-api:jar:1.1, org.apache.maven:maven-repository-metadata:jar:2.2.1, org.apache.maven:maven-error-diagnostics:jar:2.2.1, commons-cli:commons-cli:jar:1.2, org.apache.maven:maven-plugin-descriptor:jar:2.2.1, classworlds:classworlds:jar:1.1, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3, org.sonatype.plexus:plexus-cipher:jar:1.4, org.apache.maven:maven-artifact:jar:2.2.1, org.apache.maven:maven-settings:jar:2.2.1, org.apache.maven:maven-model:jar:2.2.1, org.apache.maven:maven-monitor:jar:2.2.1, org.codehaus.plexus:plexus-utils:jar:3.0.15, org.apache.maven.shared:maven-filtering:jar:1.2, org.apache.maven.shared:maven-shared-utils:jar:0.3, org.sonatype.plexus:plexus-build-api:jar:0.0.4, org.codehaus.plexus:plexus-interpolation:jar:1.19: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:367)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal(DefaultPluginDependenciesResolver.java:210)
+	... 34 more
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at io.takari.aether.connector.AetherRepositoryConnector$2.wrap(AetherRepositoryConnector.java:895)
+	at io.takari.aether.connector.AetherRepositoryConnector$2.wrap(AetherRepositoryConnector.java:1)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.flush(AetherRepositoryConnector.java:673)
+	at io.takari.aether.connector.AetherRepositoryConnector.get(AetherRepositoryConnector.java:310)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 37 more
+Caused by: org.eclipse.aether.transfer.TransferCancelledException: The operation was cancelled.
+	at org.eclipse.m2e.core.internal.embedder.ArtifactTransferListenerAdapter.transferProgressed(ArtifactTransferListenerAdapter.java:47)
+	at org.eclipse.aether.internal.impl.SafeTransferListener.transferProgressed(SafeTransferListener.java:105)
+	at io.takari.aether.connector.AetherRepositoryConnector.transferProgressed(AetherRepositoryConnector.java:866)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.resumableGet(AetherRepositoryConnector.java:642)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.run(AetherRepositoryConnector.java:453)
+	at io.takari.aether.connector.AetherRepositoryConnector.get(AetherRepositoryConnector.java:304)
+	... 39 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:01:32.851
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:01:32.883
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.core 4 -1 2017-12-14 19:01:33.416
+!MESSAGE Could not get the value for parameter encoding for plugin execution default-resources
+!STACK 0
+org.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-resources-plugin:2.7 or one of its dependencies could not be resolved: The following artifacts could not be resolved: org.apache.maven.doxia:doxia-logging-api:jar:1.1, org.apache.maven:maven-repository-metadata:jar:2.2.1, org.apache.maven:maven-error-diagnostics:jar:2.2.1, commons-cli:commons-cli:jar:1.2, org.apache.maven:maven-plugin-descriptor:jar:2.2.1, classworlds:classworlds:jar:1.1, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3, org.sonatype.plexus:plexus-cipher:jar:1.4, org.apache.maven:maven-artifact:jar:2.2.1, org.apache.maven:maven-settings:jar:2.2.1, org.apache.maven:maven-model:jar:2.2.1, org.apache.maven:maven-monitor:jar:2.2.1, org.codehaus.plexus:plexus-utils:jar:3.0.15, org.apache.maven.shared:maven-filtering:jar:1.2, org.apache.maven.shared:maven-shared-utils:jar:0.3, org.sonatype.plexus:plexus-build-api:jar:0.0.4, org.codehaus.plexus:plexus-interpolation:jar:1.19: Failure to transfer org.apache.maven.doxia:doxia-logging-api:jar:1.1 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal(DefaultPluginDependenciesResolver.java:218)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve(DefaultPluginDependenciesResolver.java:149)
+	at org.eclipse.m2e.core.internal.project.registry.EclipsePluginDependenciesResolver.resolve(EclipsePluginDependenciesResolver.java:59)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.createPluginRealm(DefaultMavenPluginManager.java:400)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupPluginRealm(DefaultMavenPluginManager.java:372)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.getPluginRealm(DefaultBuildPluginManager.java:231)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMojoParameterValue(MavenImpl.java:925)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$6.call(MavenImpl.java:959)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMojoParameterValue(MavenImpl.java:957)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.addProjectSourceFolders(AbstractJavaProjectConfigurator.java:298)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.configure(AbstractJavaProjectConfigurator.java:125)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createSimpleProject(ProjectConfigurationManager.java:691)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$4.doCreateMavenProjects(MavenProjectWizard.java:224)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:50)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:62)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:54)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: The following artifacts could not be resolved: org.apache.maven.doxia:doxia-logging-api:jar:1.1, org.apache.maven:maven-repository-metadata:jar:2.2.1, org.apache.maven:maven-error-diagnostics:jar:2.2.1, commons-cli:commons-cli:jar:1.2, org.apache.maven:maven-plugin-descriptor:jar:2.2.1, classworlds:classworlds:jar:1.1, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3, org.sonatype.plexus:plexus-cipher:jar:1.4, org.apache.maven:maven-artifact:jar:2.2.1, org.apache.maven:maven-settings:jar:2.2.1, org.apache.maven:maven-model:jar:2.2.1, org.apache.maven:maven-monitor:jar:2.2.1, org.codehaus.plexus:plexus-utils:jar:3.0.15, org.apache.maven.shared:maven-filtering:jar:1.2, org.apache.maven.shared:maven-shared-utils:jar:0.3, org.sonatype.plexus:plexus-build-api:jar:0.0.4, org.codehaus.plexus:plexus-interpolation:jar:1.19: Failure to transfer org.apache.maven.doxia:doxia-logging-api:jar:1.1 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:367)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal(DefaultPluginDependenciesResolver.java:210)
+	... 34 more
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.apache.maven.doxia:doxia-logging-api:jar:1.1 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:238)
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:206)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:585)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:503)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 37 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:01:34.065
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:01:34.066
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:01:35.212
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:01:35.212
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2017-12-14 19:02:01.794
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:984)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:559)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:1011)
+	at org.eclipse.equinox.internal.p2.core.helpers.ServiceHelper.getService(ServiceHelper.java:27)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getSharedPreferences(AbstractRepositoryManager.java:512)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.restoreRepositories(AbstractRepositoryManager.java:1016)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getRepositoryProperty(AbstractRepositoryManager.java:564)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.loadMetadataRepository(ProvisioningContext.java:211)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedMetadataRepositories(ProvisioningContext.java:194)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getMetadata(ProvisioningContext.java:275)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.updatesFor(SimplePlanner.java:784)
+	at org.eclipse.equinox.p2.operations.UpdateOperation.updatesFor(UpdateOperation.java:142)
+	at org.eclipse.equinox.p2.operations.UpdateOperation.computeProfileChangeRequest(UpdateOperation.java:179)
+	at org.eclipse.equinox.p2.operations.UpdateOperation$1.run(UpdateOperation.java:323)
+	at org.eclipse.equinox.internal.p2.operations.SearchForUpdatesResolutionJob.runModal(SearchForUpdatesResolutionJob.java:37)
+	at org.eclipse.equinox.p2.operations.ProfileChangeOperation.resolveModal(ProfileChangeOperation.java:115)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater.updatesAvailable(AutomaticUpdater.java:111)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater.updatesAvailable(AutomaticUpdater.java:92)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.updatesAvailable(AutomaticUpdateScheduler.java:146)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:79)
+!SESSION 2017-12-14 19:02:03.909 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-14 19:02:12.476
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wushijia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:02:37.824
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:02:37.829
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.core 4 -1 2017-12-14 19:02:38.731
+!MESSAGE Could not get the value for parameter encoding for plugin execution default-resources
+!STACK 0
+org.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-resources-plugin:2.7 or one of its dependencies could not be resolved: The following artifacts could not be resolved: org.apache.maven.doxia:doxia-logging-api:jar:1.1, org.apache.maven:maven-repository-metadata:jar:2.2.1, org.apache.maven:maven-error-diagnostics:jar:2.2.1, commons-cli:commons-cli:jar:1.2, org.apache.maven:maven-plugin-descriptor:jar:2.2.1, classworlds:classworlds:jar:1.1, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3, org.sonatype.plexus:plexus-cipher:jar:1.4, org.apache.maven:maven-artifact:jar:2.2.1, org.apache.maven:maven-settings:jar:2.2.1, org.apache.maven:maven-model:jar:2.2.1, org.apache.maven:maven-monitor:jar:2.2.1, org.codehaus.plexus:plexus-utils:jar:3.0.15, org.apache.maven.shared:maven-filtering:jar:1.2, org.apache.maven.shared:maven-shared-utils:jar:0.3, org.sonatype.plexus:plexus-build-api:jar:0.0.4, org.codehaus.plexus:plexus-interpolation:jar:1.19: Failure to transfer org.apache.maven.doxia:doxia-logging-api:jar:1.1 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal(DefaultPluginDependenciesResolver.java:218)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve(DefaultPluginDependenciesResolver.java:149)
+	at org.eclipse.m2e.core.internal.project.registry.EclipsePluginDependenciesResolver.resolve(EclipsePluginDependenciesResolver.java:59)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.createPluginRealm(DefaultMavenPluginManager.java:400)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupPluginRealm(DefaultMavenPluginManager.java:372)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.getPluginRealm(DefaultBuildPluginManager.java:231)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMojoParameterValue(MavenImpl.java:925)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$6.call(MavenImpl.java:959)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMojoParameterValue(MavenImpl.java:957)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.addProjectSourceFolders(AbstractJavaProjectConfigurator.java:298)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.configure(AbstractJavaProjectConfigurator.java:125)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createSimpleProject(ProjectConfigurationManager.java:691)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$4.doCreateMavenProjects(MavenProjectWizard.java:224)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:50)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:62)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:54)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: The following artifacts could not be resolved: org.apache.maven.doxia:doxia-logging-api:jar:1.1, org.apache.maven:maven-repository-metadata:jar:2.2.1, org.apache.maven:maven-error-diagnostics:jar:2.2.1, commons-cli:commons-cli:jar:1.2, org.apache.maven:maven-plugin-descriptor:jar:2.2.1, classworlds:classworlds:jar:1.1, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3, org.sonatype.plexus:plexus-cipher:jar:1.4, org.apache.maven:maven-artifact:jar:2.2.1, org.apache.maven:maven-settings:jar:2.2.1, org.apache.maven:maven-model:jar:2.2.1, org.apache.maven:maven-monitor:jar:2.2.1, org.codehaus.plexus:plexus-utils:jar:3.0.15, org.apache.maven.shared:maven-filtering:jar:1.2, org.apache.maven.shared:maven-shared-utils:jar:0.3, org.sonatype.plexus:plexus-build-api:jar:0.0.4, org.codehaus.plexus:plexus-interpolation:jar:1.19: Failure to transfer org.apache.maven.doxia:doxia-logging-api:jar:1.1 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:367)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal(DefaultPluginDependenciesResolver.java:210)
+	... 34 more
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.apache.maven.doxia:doxia-logging-api:jar:1.1 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:238)
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:206)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:585)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:503)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 37 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:02:39.410
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:02:39.459
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:02:40.631
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:02:40.634
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.core 4 -1 2017-12-14 19:03:22.749
+!MESSAGE Could not get the value for parameter encoding for plugin execution default-resources
+!STACK 0
+org.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-resources-plugin:2.7 or one of its dependencies could not be resolved: The following artifacts could not be resolved: org.apache.maven.doxia:doxia-logging-api:jar:1.1, org.apache.maven:maven-repository-metadata:jar:2.2.1, org.apache.maven:maven-error-diagnostics:jar:2.2.1, commons-cli:commons-cli:jar:1.2, org.apache.maven:maven-plugin-descriptor:jar:2.2.1, classworlds:classworlds:jar:1.1, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3, org.sonatype.plexus:plexus-cipher:jar:1.4, org.apache.maven:maven-artifact:jar:2.2.1, org.apache.maven:maven-settings:jar:2.2.1, org.apache.maven:maven-model:jar:2.2.1, org.apache.maven:maven-monitor:jar:2.2.1, org.codehaus.plexus:plexus-utils:jar:3.0.15, org.apache.maven.shared:maven-filtering:jar:1.2, org.apache.maven.shared:maven-shared-utils:jar:0.3, org.sonatype.plexus:plexus-build-api:jar:0.0.4, org.codehaus.plexus:plexus-interpolation:jar:1.19: Failure to transfer org.apache.maven.doxia:doxia-logging-api:jar:1.1 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal(DefaultPluginDependenciesResolver.java:218)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve(DefaultPluginDependenciesResolver.java:149)
+	at org.eclipse.m2e.core.internal.project.registry.EclipsePluginDependenciesResolver.resolve(EclipsePluginDependenciesResolver.java:59)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.createPluginRealm(DefaultMavenPluginManager.java:400)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupPluginRealm(DefaultMavenPluginManager.java:372)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.getPluginRealm(DefaultBuildPluginManager.java:231)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMojoParameterValue(MavenImpl.java:925)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$6.call(MavenImpl.java:959)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMojoParameterValue(MavenImpl.java:957)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.addProjectSourceFolders(AbstractJavaProjectConfigurator.java:298)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.configure(AbstractJavaProjectConfigurator.java:125)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342)
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: The following artifacts could not be resolved: org.apache.maven.doxia:doxia-logging-api:jar:1.1, org.apache.maven:maven-repository-metadata:jar:2.2.1, org.apache.maven:maven-error-diagnostics:jar:2.2.1, commons-cli:commons-cli:jar:1.2, org.apache.maven:maven-plugin-descriptor:jar:2.2.1, classworlds:classworlds:jar:1.1, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3, org.sonatype.plexus:plexus-cipher:jar:1.4, org.apache.maven:maven-artifact:jar:2.2.1, org.apache.maven:maven-settings:jar:2.2.1, org.apache.maven:maven-model:jar:2.2.1, org.apache.maven:maven-monitor:jar:2.2.1, org.codehaus.plexus:plexus-utils:jar:3.0.15, org.apache.maven.shared:maven-filtering:jar:1.2, org.apache.maven.shared:maven-shared-utils:jar:0.3, org.sonatype.plexus:plexus-build-api:jar:0.0.4, org.codehaus.plexus:plexus-interpolation:jar:1.19: Failure to transfer org.apache.maven.doxia:doxia-logging-api:jar:1.1 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:367)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal(DefaultPluginDependenciesResolver.java:210)
+	... 29 more
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.apache.maven.doxia:doxia-logging-api:jar:1.1 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:238)
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:206)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:585)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:503)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 32 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:03:22.928
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.core 4 -1 2017-12-14 19:04:08.347
+!MESSAGE Could not get the value for parameter encoding for plugin execution default-resources
+!STACK 0
+org.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-resources-plugin:2.7 or one of its dependencies could not be resolved: The following artifacts could not be resolved: org.apache.maven.doxia:doxia-logging-api:jar:1.1, org.apache.maven:maven-repository-metadata:jar:2.2.1, org.apache.maven:maven-error-diagnostics:jar:2.2.1, commons-cli:commons-cli:jar:1.2, org.apache.maven:maven-plugin-descriptor:jar:2.2.1, classworlds:classworlds:jar:1.1, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3, org.sonatype.plexus:plexus-cipher:jar:1.4, org.apache.maven:maven-artifact:jar:2.2.1, org.apache.maven:maven-settings:jar:2.2.1, org.apache.maven:maven-model:jar:2.2.1, org.apache.maven:maven-monitor:jar:2.2.1, org.codehaus.plexus:plexus-utils:jar:3.0.15, org.apache.maven.shared:maven-filtering:jar:1.2, org.apache.maven.shared:maven-shared-utils:jar:0.3, org.sonatype.plexus:plexus-build-api:jar:0.0.4, org.codehaus.plexus:plexus-interpolation:jar:1.19: Failure to transfer org.apache.maven.doxia:doxia-logging-api:jar:1.1 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal(DefaultPluginDependenciesResolver.java:218)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve(DefaultPluginDependenciesResolver.java:149)
+	at org.eclipse.m2e.core.internal.project.registry.EclipsePluginDependenciesResolver.resolve(EclipsePluginDependenciesResolver.java:59)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.createPluginRealm(DefaultMavenPluginManager.java:400)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupPluginRealm(DefaultMavenPluginManager.java:372)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.getPluginRealm(DefaultBuildPluginManager.java:231)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMojoParameterValue(MavenImpl.java:925)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$6.call(MavenImpl.java:959)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMojoParameterValue(MavenImpl.java:957)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.addProjectSourceFolders(AbstractJavaProjectConfigurator.java:298)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.configure(AbstractJavaProjectConfigurator.java:125)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342)
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: The following artifacts could not be resolved: org.apache.maven.doxia:doxia-logging-api:jar:1.1, org.apache.maven:maven-repository-metadata:jar:2.2.1, org.apache.maven:maven-error-diagnostics:jar:2.2.1, commons-cli:commons-cli:jar:1.2, org.apache.maven:maven-plugin-descriptor:jar:2.2.1, classworlds:classworlds:jar:1.1, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3, org.sonatype.plexus:plexus-cipher:jar:1.4, org.apache.maven:maven-artifact:jar:2.2.1, org.apache.maven:maven-settings:jar:2.2.1, org.apache.maven:maven-model:jar:2.2.1, org.apache.maven:maven-monitor:jar:2.2.1, org.codehaus.plexus:plexus-utils:jar:3.0.15, org.apache.maven.shared:maven-filtering:jar:1.2, org.apache.maven.shared:maven-shared-utils:jar:0.3, org.sonatype.plexus:plexus-build-api:jar:0.0.4, org.codehaus.plexus:plexus-interpolation:jar:1.19: Failure to transfer org.apache.maven.doxia:doxia-logging-api:jar:1.1 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:367)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal(DefaultPluginDependenciesResolver.java:210)
+	... 29 more
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.apache.maven.doxia:doxia-logging-api:jar:1.1 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.doxia:doxia-logging-api:jar:1.1 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:238)
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:206)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:585)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:503)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 32 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:04:08.495
+!MESSAGE Non IFiles not supported yet
+!SESSION 2017-12-14 19:06:38.525 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-14 19:06:47.860
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wushijia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:07:15.123
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:07:15.139
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 19:14:18.145
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 19:14:18.145
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 19:14:18.183
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 19:14:18.183
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:15:51.679
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:16:12.282
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:16:45.502
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:16:45.745
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:16:59.909
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:18:07.232
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:21:59.656
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:21:59.656
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:23:10.613
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:23:10.614
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:26:54.277
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:26:54.278
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:26:55.911
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:26:55.911
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:31:00.860
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:31:00.861
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:31:02.641
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:31:02.649
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:31:02.650
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:31:02.651
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:33:19.061
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:33:19.062
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:33:26.749
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:33:26.941
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:33:29.409
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:34:58.857
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:34:59.800
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:35:16.900
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:35:16.981
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:35:17.018
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:35:17.099
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:35:17.099
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:35:17.211
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:36:21.614
+!MESSAGE Could not download sources for com.github.pagehelper:pagehelper:3.4.2-fix
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.github.pagehelper:pagehelper:jar:sources:3.4.2-fix
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:228)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.github.pagehelper:pagehelper:jar:sources:3.4.2-fix
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:36:21.615
+!MESSAGE Could not resolve artifact com.github.pagehelper:pagehelper:jar:sources:3.4.2-fix
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:36:21.615
+!MESSAGE Missing com.github.pagehelper:pagehelper:jar:sources:3.4.2-fix
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:36:23.000
+!MESSAGE Could not download sources for com.github.pagehelper:pagehelper:3.4.2-fix
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.github.pagehelper:pagehelper:jar:javadoc:3.4.2-fix
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.github.pagehelper:pagehelper:jar:javadoc:3.4.2-fix
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:36:23.000
+!MESSAGE Could not resolve artifact com.github.pagehelper:pagehelper:jar:javadoc:3.4.2-fix
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:36:23.000
+!MESSAGE Missing com.github.pagehelper:pagehelper:jar:javadoc:3.4.2-fix
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:36:46.611
+!MESSAGE Could not download sources for mysql:mysql-connector-java:5.1.32
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-connector-java:jar:javadoc:5.1.32
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing mysql:mysql-connector-java:jar:javadoc:5.1.32
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:36:46.611
+!MESSAGE Could not resolve artifact mysql:mysql-connector-java:jar:javadoc:5.1.32
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:36:46.611
+!MESSAGE Missing mysql:mysql-connector-java:jar:javadoc:5.1.32
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:37:33.845
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:37:33.845
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:37:35.667
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:37:35.667
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:38:18.232
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:38:18.232
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:38:19.754
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:38:19.754
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:38:35.055
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:38:35.057
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:38:36.567
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:38:36.567
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:38:36.568
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:38:36.568
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:39:41.517
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:04.342
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:04.469
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:14.722
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:14.842
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:31.188
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/online-shoppingmall-managet-dao
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:31.190
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/online-shoppingmall-managet-dao
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:31.192
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/online-shoppingmall-managet-dao
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:31.194
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/online-shoppingmall-managet-dao
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:31.195
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/online-shoppingmall-managet-dao
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:31.199
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/online-shoppingmall-managet-dao
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:31.202
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/online-shoppingmall-managet-dao
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:31.251
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:40.293
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:46.702
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:40:46.985
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:40:47.039
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:41:17.717
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:41:17.767
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:41:17.767
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:41:17.992
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:41:18.023
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:41:18.134
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:42:10.016
+!MESSAGE Could not download sources for com.whalesj:online-shoppingmall-manager-pojo:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.whalesj:online-shoppingmall-manager-pojo:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:228)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.whalesj:online-shoppingmall-manager-pojo:jar:sources:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:42:10.016
+!MESSAGE Could not resolve artifact com.whalesj:online-shoppingmall-manager-pojo:jar:sources:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:42:10.016
+!MESSAGE Missing com.whalesj:online-shoppingmall-manager-pojo:jar:sources:0.0.1-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:42:10.027
+!MESSAGE Could not download sources for com.whalesj:online-shoppingmall-common:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.whalesj:online-shoppingmall-common:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:228)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.whalesj:online-shoppingmall-common:jar:sources:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:42:10.027
+!MESSAGE Could not resolve artifact com.whalesj:online-shoppingmall-common:jar:sources:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:42:10.027
+!MESSAGE Missing com.whalesj:online-shoppingmall-common:jar:sources:0.0.1-SNAPSHOT
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-12-14 19:47:07.676
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:47:36.709
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:47:36.709
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:47:36.838
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:47:38.767
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.2.1-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:47:41.325
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.2.1-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:47:41.375
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:47:42.717
+!MESSAGE Could not download sources for com.github.pagehelper:pagehelper:3.2.1-fix
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.github.pagehelper:pagehelper:jar:sources:3.2.1-fix
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:228)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.github.pagehelper:pagehelper:jar:sources:3.2.1-fix
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:47:42.718
+!MESSAGE Could not resolve artifact com.github.pagehelper:pagehelper:jar:sources:3.2.1-fix
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:47:42.718
+!MESSAGE Missing com.github.pagehelper:pagehelper:jar:sources:3.2.1-fix
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:47:44.176
+!MESSAGE Could not download sources for com.github.pagehelper:pagehelper:3.2.1-fix
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.github.pagehelper:pagehelper:jar:javadoc:3.2.1-fix
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.github.pagehelper:pagehelper:jar:javadoc:3.2.1-fix
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:47:44.176
+!MESSAGE Could not resolve artifact com.github.pagehelper:pagehelper:jar:javadoc:3.2.1-fix
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:47:44.176
+!MESSAGE Missing com.github.pagehelper:pagehelper:jar:javadoc:3.2.1-fix
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:47:45.560
+!MESSAGE Could not download sources for mysql:mysql-connector-java:5.1.32
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-connector-java:jar:javadoc:5.1.32
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing mysql:mysql-connector-java:jar:javadoc:5.1.32
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:47:45.560
+!MESSAGE Could not resolve artifact mysql:mysql-connector-java:jar:javadoc:5.1.32
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:47:45.560
+!MESSAGE Missing mysql:mysql-connector-java:jar:javadoc:5.1.32
+!SESSION 2017-12-14 19:48:13.776 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-14 19:48:28.641
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wushijia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:48:30.298
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model for com.whalesj:online-shoppingmall-manager-dao:[unknown-version]
+[FATAL] Non-resolvable parent POM for com.whalesj:online-shoppingmall-manager:0.0.1-SNAPSHOT: Could not find artifact com.whalesj:online-shoppingmall-parent:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ com.whalesj:online-shoppingmall-manager:0.0.1-SNAPSHOT, G:\OnlineShoppingMall\online-shoppingmall-manager\pom.xml, line 4, column 10
+ for project com.whalesj:online-shoppingmall-manager-dao:[unknown-version] at G:\OnlineShoppingMall\online-shoppingmall-manager\online-shoppingmall-manager-dao\pom.xml
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model for com.whalesj:online-shoppingmall-manager-dao:[unknown-version]
+[FATAL] Non-resolvable parent POM for com.whalesj:online-shoppingmall-manager:0.0.1-SNAPSHOT: Could not find artifact com.whalesj:online-shoppingmall-parent:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ com.whalesj:online-shoppingmall-manager:0.0.1-SNAPSHOT, G:\OnlineShoppingMall\online-shoppingmall-manager\pom.xml, line 4, column 10
+ for project com.whalesj:online-shoppingmall-manager-dao:[unknown-version] at G:\OnlineShoppingMall\online-shoppingmall-manager\online-shoppingmall-manager-dao\pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model for com.whalesj:online-shoppingmall-manager-dao:[unknown-version]
+[FATAL] Non-resolvable parent POM for com.whalesj:online-shoppingmall-manager:0.0.1-SNAPSHOT: Could not find artifact com.whalesj:online-shoppingmall-parent:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ com.whalesj:online-shoppingmall-manager:0.0.1-SNAPSHOT, G:\OnlineShoppingMall\online-shoppingmall-manager\pom.xml, line 4, column 10
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:1029)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:800)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:329)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161)
+	... 15 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:48:30.464
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:48:30.464
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:48:30.518
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:48:30.546
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:48:30.565
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:48:30.571
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:48:31.108
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:48:31.108
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:48:31.109
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:48:31.314
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:48:31.359
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:49:01.582
+!MESSAGE The POM for com.whalesj:online-shoppingmall-common:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:49:01.617
+!MESSAGE The POM for com.whalesj:online-shoppingmall-common:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:50:42.176
+!MESSAGE The POM for com.whalesj:online-shoppingmall-common:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:50:42.194
+!MESSAGE The POM for com.whalesj:online-shoppingmall-common:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:51:06.545
+!MESSAGE The POM for com.whalesj:online-shoppingmall-common:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:51:06.559
+!MESSAGE The POM for com.whalesj:online-shoppingmall-common:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:51:06.743
+!MESSAGE The POM for com.whalesj:online-shoppingmall-common:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:51:07.288
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.2.1-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:51:07.487
+!MESSAGE The POM for com.whalesj:online-shoppingmall-common:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:51:08.011
+!MESSAGE The POM for com.whalesj:online-shoppingmall-common:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:51:08.029
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.2.1-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:51:08.411
+!MESSAGE Could not download sources for com.whalesj:online-shoppingmall-common:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.whalesj:online-shoppingmall-common:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:228)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.whalesj:online-shoppingmall-common:jar:sources:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:51:08.412
+!MESSAGE Could not resolve artifact com.whalesj:online-shoppingmall-common:jar:sources:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:51:08.412
+!MESSAGE Missing com.whalesj:online-shoppingmall-common:jar:sources:0.0.1-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:51:08.429
+!MESSAGE Could not download sources for com.whalesj:online-shoppingmall-common:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.whalesj:online-shoppingmall-common:jar:javadoc:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.whalesj:online-shoppingmall-common:jar:javadoc:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:51:08.429
+!MESSAGE Could not resolve artifact com.whalesj:online-shoppingmall-common:jar:javadoc:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:51:08.429
+!MESSAGE Missing com.whalesj:online-shoppingmall-common:jar:javadoc:0.0.1-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:51:08.438
+!MESSAGE The POM for com.whalesj:online-shoppingmall-common:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:51:26.845
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:51:26.894
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.2.1-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:51:27.587
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:51:27.601
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:51:27.620
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:51:27.654
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:51:27.655
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:51:27.832
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:51:28.344
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.2.1-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:52:27.448
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:52:27.450
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:52:27.451
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:52:27.452
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:52:27.642
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:52:29.221
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:52:31.604
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:52:31.760
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:52:33.188
+!MESSAGE Could not download sources for com.github.pagehelper:pagehelper:3.4.2-fix
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.github.pagehelper:pagehelper:jar:sources:3.4.2-fix
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:228)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.github.pagehelper:pagehelper:jar:sources:3.4.2-fix
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:52:33.188
+!MESSAGE Could not resolve artifact com.github.pagehelper:pagehelper:jar:sources:3.4.2-fix
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:52:33.188
+!MESSAGE Missing com.github.pagehelper:pagehelper:jar:sources:3.4.2-fix
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:52:34.567
+!MESSAGE Could not download sources for com.github.pagehelper:pagehelper:3.4.2-fix
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.github.pagehelper:pagehelper:jar:javadoc:3.4.2-fix
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.github.pagehelper:pagehelper:jar:javadoc:3.4.2-fix
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:52:34.567
+!MESSAGE Could not resolve artifact com.github.pagehelper:pagehelper:jar:javadoc:3.4.2-fix
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:52:34.567
+!MESSAGE Missing com.github.pagehelper:pagehelper:jar:javadoc:3.4.2-fix
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:53:13.038
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:53:13.042
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:53:13.047
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:53:13.047
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:53:13.060
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:53:13.060
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:53:13.069
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:53:13.070
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:53:13.227
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:53:14.330
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:53:16.372
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:53:16.432
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:53:16.433
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:53:16.454
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:53:16.809
+!MESSAGE The POM for com.github.pagehelper:pagehelper:jar:3.4.2-fix is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:53:18.254
+!MESSAGE Could not download sources for com.github.pagehelper:pagehelper:3.4.2-fix
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.github.pagehelper:pagehelper:jar:sources:3.4.2-fix
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:228)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.github.pagehelper:pagehelper:jar:sources:3.4.2-fix
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:53:18.254
+!MESSAGE Could not resolve artifact com.github.pagehelper:pagehelper:jar:sources:3.4.2-fix
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:53:18.254
+!MESSAGE Missing com.github.pagehelper:pagehelper:jar:sources:3.4.2-fix
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 19:53:19.626
+!MESSAGE Could not download sources for com.github.pagehelper:pagehelper:3.4.2-fix
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.github.pagehelper:pagehelper:jar:javadoc:3.4.2-fix
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.github.pagehelper:pagehelper:jar:javadoc:3.4.2-fix
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 19:53:19.626
+!MESSAGE Could not resolve artifact com.github.pagehelper:pagehelper:jar:javadoc:3.4.2-fix
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 19:53:19.626
+!MESSAGE Missing com.github.pagehelper:pagehelper:jar:javadoc:3.4.2-fix
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:56:10.208
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:56:10.208
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:56:10.209
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 19:56:10.209
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:56:10.358
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 19:56:14.368
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:06:42.560
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:06:42.560
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:06:42.916
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:06:43.174
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:06:43.175
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:06:43.175
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:06:43.175
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:06:43.185
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:06:43.185
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 20:06:51.747
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 20:06:51.748
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 20:06:51.777
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 20:06:51.777
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:09:34.363
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:09:34.363
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:09:34.385
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:09:34.385
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:09:34.389
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:09:34.397
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:09:34.405
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:09:34.432
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 20:09:34.612
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:09:35.343
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:09:35.358
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:09:35.359
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:09:35.359
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 20:09:35.364
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 20:12:25.558
+!MESSAGE Could not download sources for aopalliance:aopalliance:1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact aopalliance:aopalliance:jar:javadoc:1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing aopalliance:aopalliance:jar:javadoc:1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 20:12:25.558
+!MESSAGE Could not resolve artifact aopalliance:aopalliance:jar:javadoc:1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 20:12:25.558
+!MESSAGE Missing aopalliance:aopalliance:jar:javadoc:1.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:12:49.129
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:12:49.137
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 20:13:04.168
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:13:06.518
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:13:06.832
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:13:06.915
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:13:06.916
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:13:06.916
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:13:06.917
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:13:06.918
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-12-14 20:13:54.378
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 20:13:57.050
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 20:14:46.426
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 20:17:42.068
+!MESSAGE Could not download sources for jstl:jstl:1.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact jstl:jstl:jar:sources:1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:228)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing jstl:jstl:jar:sources:1.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 20:17:42.069
+!MESSAGE Could not resolve artifact jstl:jstl:jar:sources:1.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 20:17:42.069
+!MESSAGE Missing jstl:jstl:jar:sources:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 20:17:43.441
+!MESSAGE Could not download sources for jstl:jstl:1.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact jstl:jstl:jar:javadoc:1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing jstl:jstl:jar:javadoc:1.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 20:17:43.441
+!MESSAGE Could not resolve artifact jstl:jstl:jar:javadoc:1.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 20:17:43.441
+!MESSAGE Missing jstl:jstl:jar:javadoc:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 20:17:47.559
+!MESSAGE Could not download sources for javax.servlet:servlet-api:2.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.servlet:servlet-api:jar:javadoc:2.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing javax.servlet:servlet-api:jar:javadoc:2.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 20:17:47.559
+!MESSAGE Could not resolve artifact javax.servlet:servlet-api:jar:javadoc:2.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 20:17:47.559
+!MESSAGE Missing javax.servlet:servlet-api:jar:javadoc:2.5
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 20:17:48.924
+!MESSAGE Could not download sources for javax.servlet:jsp-api:2.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.servlet:jsp-api:jar:sources:2.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:228)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing javax.servlet:jsp-api:jar:sources:2.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 20:17:48.924
+!MESSAGE Could not resolve artifact javax.servlet:jsp-api:jar:sources:2.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 20:17:48.924
+!MESSAGE Missing javax.servlet:jsp-api:jar:sources:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 20:17:50.301
+!MESSAGE Could not download sources for javax.servlet:jsp-api:2.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.servlet:jsp-api:jar:javadoc:2.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing javax.servlet:jsp-api:jar:javadoc:2.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 20:17:50.301
+!MESSAGE Could not resolve artifact javax.servlet:jsp-api:jar:javadoc:2.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 20:17:50.301
+!MESSAGE Missing javax.servlet:jsp-api:jar:javadoc:2.0
+
+!ENTRY org.eclipse.ui.navigator 4 2 2017-12-14 20:20:47.000
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/online-shoppingmall-manager-web/src/main/webapp/WEB-INF/web.xml; systemId: platform:/resource/online-shoppingmall-manager-web/src/main/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1064)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:98)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:35)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:143)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:122)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:142)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:993)
+	at org.eclipse.ui.dialogs.WizardNewFileCreationPage.createNewFile(WizardNewFileCreationPage.java:479)
+	at org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard.performFinish(NewXMLWizard.java:301)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:790)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:423)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:269)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor85.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:353)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:155)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/online-shoppingmall-manager-web/src/main/webapp/WEB-INF/web.xml; systemId: platform:/resource/online-shoppingmall-manager-web/src/main/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1518)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1297)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 85 more
+
+!ENTRY org.eclipse.ui.navigator 4 0 2017-12-14 20:20:47.003
+!MESSAGE An exception occurred invoking extension: org.eclipse.jst.jee.ui.web for object P/online-shoppingmall-manager-web
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/online-shoppingmall-manager-web/src/main/webapp/WEB-INF/web.xml; systemId: platform:/resource/online-shoppingmall-manager-web/src/main/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1064)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:98)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:35)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:143)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:122)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:142)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:993)
+	at org.eclipse.ui.dialogs.WizardNewFileCreationPage.createNewFile(WizardNewFileCreationPage.java:479)
+	at org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard.performFinish(NewXMLWizard.java:301)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:790)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:423)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:269)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor85.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:353)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:155)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/online-shoppingmall-manager-web/src/main/webapp/WEB-INF/web.xml; systemId: platform:/resource/online-shoppingmall-manager-web/src/main/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1518)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1297)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 85 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:26:49.771
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:26:49.771
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:27:10.646
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:27:10.646
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 20:27:10.968
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:32:00.878
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:32:00.880
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 20:32:01.299
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 20:46:03.028
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 20:46:03.029
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 20:46:23.099
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-12-14 20:46:23.099
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.777
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.778
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.778
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.779
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.788
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.789
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.789
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.789
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.799
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.803
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.811
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.811
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.821
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:56:22.821
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 20:56:25.008
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:58:11.203
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:58:11.214
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 20:58:11.661
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 20:58:12.304
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 20:58:33.132
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 20:59:44.269
+!MESSAGE Could not download sources for mysql:mysql-connector-java:5.1.32
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-connector-java:jar:javadoc:5.1.32
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing mysql:mysql-connector-java:jar:javadoc:5.1.32
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 20:59:44.269
+!MESSAGE Could not resolve artifact mysql:mysql-connector-java:jar:javadoc:5.1.32
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 20:59:44.269
+!MESSAGE Missing mysql:mysql-connector-java:jar:javadoc:5.1.32
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.111
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.111
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.111
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.112
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.112
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.112
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.112
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.112
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.125
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.126
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.128
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.136
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.136
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:00:07.155
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 21:00:07.299
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:02:39.056
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:02:39.057
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:02:39.057
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 21:02:39.526
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 21:10:58.077
+!MESSAGE Could not download sources for com.alibaba:druid:1.0.9
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.alibaba:druid:jar:javadoc:1.0.9
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not transfer artifact com.alibaba:druid:jar:javadoc:1.0.9 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact com.alibaba:druid:jar:javadoc:1.0.9 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at io.takari.aether.connector.AetherRepositoryConnector$2.wrap(AetherRepositoryConnector.java:895)
+	at io.takari.aether.connector.AetherRepositoryConnector$2.wrap(AetherRepositoryConnector.java:1)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.flush(AetherRepositoryConnector.java:673)
+	at io.takari.aether.connector.AetherRepositoryConnector.get(AetherRepositoryConnector.java:310)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:753)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.TransferCancelledException: The operation was cancelled.
+	at org.eclipse.m2e.core.internal.embedder.ArtifactTransferListenerAdapter.transferProgressed(ArtifactTransferListenerAdapter.java:47)
+	at org.eclipse.aether.internal.impl.SafeTransferListener.transferProgressed(SafeTransferListener.java:105)
+	at io.takari.aether.connector.AetherRepositoryConnector.transferProgressed(AetherRepositoryConnector.java:866)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.resumableGet(AetherRepositoryConnector.java:642)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.run(AetherRepositoryConnector.java:453)
+	at io.takari.aether.connector.AetherRepositoryConnector.get(AetherRepositoryConnector.java:304)
+	... 24 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-14 21:10:58.078
+!MESSAGE Could not resolve artifact com.alibaba:druid:jar:javadoc:1.0.9
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-14 21:10:58.078
+!MESSAGE Could not transfer artifact com.alibaba:druid:jar:javadoc:1.0.9 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+!STACK 0
+org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact com.alibaba:druid:jar:javadoc:1.0.9 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.
+	at io.takari.aether.connector.AetherRepositoryConnector$2.wrap(AetherRepositoryConnector.java:895)
+	at io.takari.aether.connector.AetherRepositoryConnector$2.wrap(AetherRepositoryConnector.java:1)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.flush(AetherRepositoryConnector.java:673)
+	at io.takari.aether.connector.AetherRepositoryConnector.get(AetherRepositoryConnector.java:310)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:753)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:249)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:237)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:202)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.TransferCancelledException: The operation was cancelled.
+	at org.eclipse.m2e.core.internal.embedder.ArtifactTransferListenerAdapter.transferProgressed(ArtifactTransferListenerAdapter.java:47)
+	at org.eclipse.aether.internal.impl.SafeTransferListener.transferProgressed(SafeTransferListener.java:105)
+	at io.takari.aether.connector.AetherRepositoryConnector.transferProgressed(AetherRepositoryConnector.java:866)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.resumableGet(AetherRepositoryConnector.java:642)
+	at io.takari.aether.connector.AetherRepositoryConnector$GetTask.run(AetherRepositoryConnector.java:453)
+	at io.takari.aether.connector.AetherRepositoryConnector.get(AetherRepositoryConnector.java:304)
+	... 24 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-12-14 21:10:58.079
+!MESSAGE An internal error occurred during: "Download sources and javadoc".
+!STACK 0
+java.lang.IllegalStateException: Workspace is closed.
+	at org.eclipse.core.resources.ResourcesPlugin.getWorkspace(ResourcesPlugin.java:412)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:172)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-12-14 21:11:09.641 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-14 21:11:22.414
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wushijia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-14 21:11:22.666
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model for com.whalesj:online-shoppingmall-manager-web:[unknown-version]
+[FATAL] Non-resolvable parent POM for com.whalesj:online-shoppingmall-manager:0.0.1-SNAPSHOT: Could not find artifact com.whalesj:online-shoppingmall-parent:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ com.whalesj:online-shoppingmall-manager:0.0.1-SNAPSHOT, G:\OnlineShoppingMall\online-shoppingmall-manager\pom.xml, line 4, column 10
+ for project com.whalesj:online-shoppingmall-manager-web:[unknown-version] at G:\OnlineShoppingMall\online-shoppingmall-manager\online-shoppingmall-manager-web\pom.xml
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model for com.whalesj:online-shoppingmall-manager-web:[unknown-version]
+[FATAL] Non-resolvable parent POM for com.whalesj:online-shoppingmall-manager:0.0.1-SNAPSHOT: Could not find artifact com.whalesj:online-shoppingmall-parent:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ com.whalesj:online-shoppingmall-manager:0.0.1-SNAPSHOT, G:\OnlineShoppingMall\online-shoppingmall-manager\pom.xml, line 4, column 10
+ for project com.whalesj:online-shoppingmall-manager-web:[unknown-version] at G:\OnlineShoppingMall\online-shoppingmall-manager\online-shoppingmall-manager-web\pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model for com.whalesj:online-shoppingmall-manager-web:[unknown-version]
+[FATAL] Non-resolvable parent POM for com.whalesj:online-shoppingmall-manager:0.0.1-SNAPSHOT: Could not find artifact com.whalesj:online-shoppingmall-parent:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ com.whalesj:online-shoppingmall-manager:0.0.1-SNAPSHOT, G:\OnlineShoppingMall\online-shoppingmall-manager\pom.xml, line 4, column 10
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:1029)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:800)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:329)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161)
+	... 15 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:22.766
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:22.783
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:22.790
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:22.924
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:23.089
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:23.257
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:23.264
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:23.315
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:23.329
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:23.330
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:23.377
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:23.535
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:23.535
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:23.737
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:23.901
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:23.950
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:25.437
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:11:25.445
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 21:14:21.195
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 21:16:15.369
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:38.899
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:38.913
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:38.925
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:38.938
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:38.956
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:38.960
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:38.963
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:38.963
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:38.972
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:38.973
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:38.991
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:39.006
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:39.018
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:39.022
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:39.032
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:39.033
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:39.114
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:39.114
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:39.115
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:39.115
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:39.116
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:18:39.117
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 21:18:39.424
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-12-14 21:24:22.858
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-12-14 21:25:31.438
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-14 21:25:32.635
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
