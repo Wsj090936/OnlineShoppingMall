@@ -1,0 +1,11 @@
+com\whalesj\mapper\TbContentCategoryMapper.class
+com\whalesj\mapper\TbItemCatMapper.class
+com\whalesj\mapper\TbItemDescMapper.class
+com\whalesj\mapper\TbOrderItemMapper.class
+com\whalesj\mapper\TbContentMapper.class
+com\whalesj\mapper\TbItemMapper.class
+com\whalesj\mapper\TbOrderShippingMapper.class
+com\whalesj\mapper\TbItemParamItemMapper.class
+com\whalesj\mapper\TbUserMapper.class
+com\whalesj\mapper\TbItemParamMapper.class
+com\whalesj\mapper\TbOrderMapper.class

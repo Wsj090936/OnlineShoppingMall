@@ -14,24 +14,6 @@
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
 
-	<servlet><!-- 配置前端控制器DispacherServlet加载SpringMVC配置文件 -->
-		<servlet-name>springmvc</servlet-name>
-		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-		<init-param><!-- 设置配置文件的位置 -->
-			<param-name>contextConfigLocation</param-name>
-			<param-value>classpath:spring/springmvc.xml</param-value>
-		</init-param>
-		<load-on-startup>1</load-on-startup><!-- 启动tomcat时就初始化该servlet,否则第一次访问时才初始化 -->
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>onlineShoppingMall</servlet-name>
-		<url-pattern>/rest/*</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>onlineShoppingMall</servlet-name>
-		<url-pattern>/</url-pattern>
-	</servlet-mapping>
-
 
 	<filter><!-- 解决乱码 -->
 		<filter-name>characterEncoding</filter-name>
@@ -45,6 +27,24 @@
 		<filter-name>characterEncoding</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
+
+	<servlet><!-- 配置前端控制器DispacherServlet加载SpringMVC配置文件 -->
+		<servlet-name>onlineShoppingMall</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param><!-- 设置配置文件的位置 -->
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath:spring/springmvc.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup><!-- 启动tomcat时就初始化该servlet,否则第一次访问时才初始化 -->
+	</servlet>
+<!-- 	<servlet-mapping>
+		<servlet-name>onlineShoppingMall</servlet-name>
+		<url-pattern>/rest/*</url-pattern>
+	</servlet-mapping> -->
+	<servlet-mapping>
+		<servlet-name>onlineShoppingMall</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
 
 
 	<welcome-file-list>

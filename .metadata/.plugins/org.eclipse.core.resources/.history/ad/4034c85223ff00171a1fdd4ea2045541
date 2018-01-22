@@ -1,0 +1,5 @@
+package com.whalesj.service;
+
+public interface ItemService {
+	Tbitem getItem(Long tbitem);
+}
