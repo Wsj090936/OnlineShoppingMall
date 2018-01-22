@@ -1,1 +1,3 @@
 com\whalesj\controller\ItemController.class
+com\whalesj\controller\PageController.class
+com\whalesj\controller\ItemCatController.class

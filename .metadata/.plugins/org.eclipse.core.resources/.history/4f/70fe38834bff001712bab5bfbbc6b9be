@@ -1,0 +1,25 @@
+package com.whalesj.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.pojo.EasyUiDateGridResult;
+import com.whalesj.mapper.TbItemMapper;
+import com.whalesj.pojo.TbItem;
+import com.whalesj.service.ItemService;
+@Service
+public class ItemServiceImpl implements ItemService {
+	@Autowired
+	private TbItemMapper itemMapper;
+	@Override
+	public TbItem getItem(Long itemid) {
+		TbItem item = itemMapper.selectByPrimaryKey(itemid);
+		return item;
+	}
+	@Override
+	public EasyUiDateGridResult getItemList(int page, int rows) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

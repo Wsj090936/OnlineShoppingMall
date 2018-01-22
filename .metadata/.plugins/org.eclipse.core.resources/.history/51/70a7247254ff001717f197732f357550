@@ -1,0 +1,22 @@
+package com.whalesj.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.pojo.EasyUiTreeNode;
+import com.whalesj.mapper.TbItemCatMapper;
+import com.whalesj.service.ItemCatService;
+
+@Service
+public class ItemCatServiceImpl implements ItemCatService{
+	@Autowired
+	private TbItemCatMapper itemCatMapper;
+	@Override
+	public List<EasyUiTreeNode> getItemCatList(long parentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

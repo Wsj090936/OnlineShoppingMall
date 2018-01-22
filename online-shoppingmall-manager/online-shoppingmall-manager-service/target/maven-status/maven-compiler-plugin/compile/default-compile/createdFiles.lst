@@ -1,2 +1,4 @@
+com\whalesj\service\ItemCatService.class
 com\whalesj\service\ItemService.class
 com\whalesj\service\impl\ItemServiceImpl.class
+com\whalesj\service\impl\ItemCatServiceImpl.class

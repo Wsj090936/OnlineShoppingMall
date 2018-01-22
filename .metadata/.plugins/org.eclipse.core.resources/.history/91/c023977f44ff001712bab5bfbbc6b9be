@@ -1,0 +1,16 @@
+package pagehelper;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.whalesj.mapper.TbItemMapper;
+
+public class TestPageHelper {
+	@Test
+	public void testPageHelper() throws Exception{
+		//1、获得mapper对象
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
+		TbItemMapper itemMapper = applicationContext.getBean(TbItemMapper.class);
+	}
+}

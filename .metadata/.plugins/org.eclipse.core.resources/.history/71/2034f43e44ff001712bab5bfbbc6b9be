@@ -1,0 +1,10 @@
+package pagehelper;
+
+import org.junit.Test;
+
+public class TestPageHelper {
+	@Test
+	public void testPageHelper() throws Exception{
+		
+	}
+}

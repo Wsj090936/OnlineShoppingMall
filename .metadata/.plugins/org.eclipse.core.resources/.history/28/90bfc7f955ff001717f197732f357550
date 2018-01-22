@@ -1,0 +1,9 @@
+package com.whalesj.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+@RequestMapping("/item/cat")
+public class ItemCatController {
+
+}

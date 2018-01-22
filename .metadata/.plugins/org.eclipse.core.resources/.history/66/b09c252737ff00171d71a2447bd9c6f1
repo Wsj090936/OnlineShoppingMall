@@ -1,0 +1,9 @@
+package com.whalesj.controller;
+/**
+ * 页面跳转的Controller
+ * @author wushijia
+ *
+ */
+public class PageController {
+
+}

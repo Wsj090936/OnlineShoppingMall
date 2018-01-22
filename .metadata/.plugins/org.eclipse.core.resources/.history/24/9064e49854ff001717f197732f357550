@@ -1,0 +1,27 @@
+package com.whalesj.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.pojo.EasyUiTreeNode;
+import com.whalesj.mapper.TbItemCatMapper;
+import com.whalesj.pojo.TbItemCatExample;
+import com.whalesj.pojo.TbItemCatExample.Criteria;
+import com.whalesj.service.ItemCatService;
+
+@Service
+public class ItemCatServiceImpl implements ItemCatService{
+	@Autowired
+	private TbItemCatMapper itemCatMapper;
+	@Override
+	public List<EasyUiTreeNode> getItemCatList(long parentId) {
+		//根据parentId查询类目列表
+		TbItemCatExample example = new TbItemCatExample();
+		Criteria criteria = example.createCriteria();
+		itemCatMapper.selectByExample(example);
+		return null;
+	}
+
+}

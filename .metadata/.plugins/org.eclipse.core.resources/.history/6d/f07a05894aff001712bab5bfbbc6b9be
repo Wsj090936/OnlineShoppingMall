@@ -1,0 +1,6 @@
+package com.whalesj.common.pojo;
+
+public class EasyUiDateGridResult {
+	private long total;
+	private List<?> rows;
+}
