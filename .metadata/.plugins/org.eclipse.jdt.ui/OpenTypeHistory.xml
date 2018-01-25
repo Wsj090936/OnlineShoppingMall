@@ -2,6 +2,6 @@
 <typeInfoHistroy>
 <typeInfo handle="=online-shoppingmall-manager-service/G:\/MavenRepo\/repo\/org\/springframework\/spring-web\/4.1.3.RELEASE\/spring-web-4.1.3.RELEASE.jar&lt;org.springframework.web.context(ContextLoaderListener.class[ContextLoaderListener" modifiers="33" timestamp="1513257709615"/>
 <typeInfo handle="=online-shoppingmall-manager-service/src\/main\/java&lt;com.whalesj.service{ItemService.java[ItemService" modifiers="513" timestamp="1516608252717"/>
-<typeInfo handle="=online-shoppingmall-manager-service/C:\/Program Files\/Java\/jre1.8.0_151\/lib\/rt.jar&lt;java.awt.event(ItemListener.class[ItemListener" modifiers="1537" timestamp="1515118903680"/>
 <typeInfo handle="=online-shoppingmall-manager-dao/G:\/MavenRepo\/repo\/com\/github\/pagehelper\/pagehelper\/3.4.2\/pagehelper-3.4.2.jar&lt;com.github.pagehelper(PageHelper.class[PageHelper" modifiers="33" timestamp="1513257543122"/>
+<typeInfo handle="=online-shoppingmall-manager-service/src\/main\/java&lt;com.whalesj.service{PictureService.java[PictureService" modifiers="513" timestamp="1516867304338"/>
 </typeInfoHistroy>

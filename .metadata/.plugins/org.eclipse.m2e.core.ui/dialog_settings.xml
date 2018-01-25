@@ -7,6 +7,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="fastdfs_client"/>
 			<item value="online-shoppingmall-manager-web"/>
 			<item value="online-shoppingmall-manager"/>
 			<item value="online-shoppingmall-manager-service"/>
@@ -74,6 +75,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="G:\OnlineShoppingMall\online-shoppingmall-common\pom.xml"/>
 			<item value="G:\OnlineShoppingMall\online-shoppingmall-parent"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -87,13 +89,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.online.shoppingmall.manager.web"/>
 		</list>
 		<list key="groupId">
-			<item value="com.whalesj"/>
 		</list>
 		<list key="artifactId">
-			<item value="online-shoppingmall-manager-web"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
