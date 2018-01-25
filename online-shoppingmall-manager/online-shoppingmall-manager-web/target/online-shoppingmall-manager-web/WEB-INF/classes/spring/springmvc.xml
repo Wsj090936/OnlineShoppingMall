@@ -17,4 +17,10 @@
 	<!-- 静态资源映射 -->
 	<mvc:resources location="/js/" mapping="/js/**"/>
 	<mvc:resources location="/css/" mapping="/css/**"/>
+	<!-- 多媒体文件解析器 -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="defaultEncoding" value="UTF-8"></property><!-- 设置编码 -->
+		<!-- 设置文件上传大小 -->
+		<property name="maxUploadSize" value="5242800"></property>
+	</bean>
 </beans>

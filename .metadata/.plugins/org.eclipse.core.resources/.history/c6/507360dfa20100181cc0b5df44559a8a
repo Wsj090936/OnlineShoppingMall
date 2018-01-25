@@ -1,0 +1,7 @@
+package com.whalesj.common.pojo;
+
+public class PictureResult {
+	private int error;
+	private String url;
+	private String message;
+}

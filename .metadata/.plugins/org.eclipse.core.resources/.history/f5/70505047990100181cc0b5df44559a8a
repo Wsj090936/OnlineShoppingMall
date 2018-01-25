@@ -1,0 +1,20 @@
+package com.whalesj.fastdfs;
+
+
+
+import org.csource.fastdfs.ClientGlobal;
+import org.csource.fastdfs.StorageClient;
+import org.csource.fastdfs.TrackerClient;
+
+public class TestFastDfs {
+	public void uploadtest() throws Exception{
+		//1、初始化全局配置
+		ClientGlobal.init("G:\\OnlineShoppingMall\\online-shoppingmall-manager\\online-shoppingmall-manager-web\\src\\main\\resources\\properties\\client.conf");
+		//2、创建一个TrakcerClient对象
+		TrackerClient trackerClient = new TrackerClient();
+		//3、得到TrackerServer对象
+		//4、声明一个StorageServer对象
+		//5、创建StorageClient对象
+		StroageClient storageClient = new StorageClient(trackerServer, storageServer);
+	}
+}

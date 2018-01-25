@@ -1,0 +1,34 @@
+package com.whalesj.service.impl;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+import com.whalesj.common.pojo.PictureResult;
+import com.whalesj.common.utils.FastDFSClient;
+import com.whalesj.service.PictureService;
+
+//图片上传Service
+@Service
+public class PictureServiceImpl implements PictureService {
+
+	@Override
+	public PictureResult uploadPic(MultipartFile picfile) {
+		PictureResult result = new PictureResult();
+		//先判断图片是否为空
+		if(picfile.isEmpty()){
+			result.setError(1);//有错error为1，无措为0
+			result.setMessage("图片为空");
+			return result;
+		}
+		try {
+			//取图片扩展名
+			String originalFilename = picfile.getOriginalFilename();
+			String extname = originalFilename.substring(originalFilename.lastIndexOf(".") + 1);//扩展名
+			FastDFSClient client = new FastDFSClient("G:\\OnlineShoppingMall\\online-shoppingmall-manager\\online-shoppingmall-manager-web\\src\\main\\resources\\properties\\client.conf");
+			client.uploadFile(picfile.getBytes(), extname)
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+}

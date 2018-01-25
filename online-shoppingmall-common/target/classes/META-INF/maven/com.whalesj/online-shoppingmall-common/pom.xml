@@ -7,7 +7,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.whalesj</groupId>
-	<artifactId>online-shoppingmall-common</artifactId><!-- 该工程用来存放各种工具类-->
+	<artifactId>online-shoppingmall-common</artifactId><!-- 该工程用来存放各种工具类 -->
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<!-- 时间操作组件 -->
@@ -48,6 +48,11 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fastdfs_client</groupId>
+			<artifactId>fastdfs_client</artifactId>
+			<version>1.2</version>
 		</dependency>
 	</dependencies>
 </project>

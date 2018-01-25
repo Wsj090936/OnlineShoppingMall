@@ -1,0 +1,12 @@
+package com.whalesj.fastdfs;
+
+
+
+import org.csource.fastdfs.ClientGlobal;
+
+public class TestFastDfs {
+	public void uploadtest() throws Exception{
+		//1、初始化全局配置
+		ClientGlobal.init("G:\\OnlineShoppingMall\\online-shoppingmall-manager\\online-shoppingmall-manager-web\\src\\main\\resources\\properties\\client.conf");
+	}
+}

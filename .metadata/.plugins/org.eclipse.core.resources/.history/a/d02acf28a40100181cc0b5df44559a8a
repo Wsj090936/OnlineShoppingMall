@@ -1,0 +1,17 @@
+package com.whalesj.controller.utils;
+
+import org.csource.fastdfs.ClientGlobal;
+import org.csource.fastdfs.StorageClient;
+import org.csource.fastdfs.StorageServer;
+import org.csource.fastdfs.TrackerClient;
+import org.csource.fastdfs.TrackerServer;
+
+public class FastDFSClient {
+	private TrackerClient trackerClient = null;
+	private TrackerServer trackerServer = null;
+	private StorageServer storageServer = null;
+	private StorageClient storageClient = null;
+	public FastDFSClient(String conf){
+		ClientGlobal.init(conf);
+	}
+}

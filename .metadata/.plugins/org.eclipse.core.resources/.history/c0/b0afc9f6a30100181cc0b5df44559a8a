@@ -1,0 +1,7 @@
+package com.whalesj.controller.utils;
+
+import org.csource.fastdfs.TrackerClient;
+
+public class FastDFSClient {
+	private TrackerClient trackerClient = null
+}

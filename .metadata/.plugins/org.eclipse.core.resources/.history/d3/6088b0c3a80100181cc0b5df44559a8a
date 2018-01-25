@@ -1,0 +1,16 @@
+package com.whalesj.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+
+/**
+ * 图片上传Controller
+ * @author wushijia
+ *
+ */
+@Controller
+public class PictureController {
+	@Autowired
+	PictureService pictureService;
+}
