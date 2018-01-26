@@ -34,15 +34,22 @@
 <fullyQualifiedTypeName name="com.whalesj.mapper.TbItemDescMapper"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-<fullyQualifiedTypeName name="com.whalesj.mapper.TbItemParamMapper"/>
 <fullyQualifiedTypeName name="com.whalesj.pojo.TbItemParamExample"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.whalesj.service.ItemParamService"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
 <fullyQualifiedTypeName name="com.whalesj.pojo.TbItemParam"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.whalesj.common.pojo.TaotaoResult"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="com.whalesj.pojo.TbItemParamItem"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.whalesj.mapper.TbItemParamMapper"/>
+<fullyQualifiedTypeName name="com.whalesj.mapper.TbItemParamItemMapper"/>
+<fullyQualifiedTypeName name="com.whalesj.pojo.TbItemParamItemExample"/>
+<fullyQualifiedTypeName name="com.alibaba.druid.support.json.JSONUtils"/>
+<fullyQualifiedTypeName name="com.whalesj.common.utils.JsonUtils"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 </qualifiedTypeNameHistroy>
