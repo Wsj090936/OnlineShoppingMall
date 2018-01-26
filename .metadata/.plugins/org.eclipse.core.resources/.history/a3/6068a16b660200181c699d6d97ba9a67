@@ -1,0 +1,24 @@
+package com.whalesj.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.mapper.TbItemParamMapper;
+import com.whalesj.service.ItemParamService;
+/**
+ * 商品规格参数模板
+ * @author wushijia
+ *
+ */
+@Service
+public class ItemParamServiceImpl implements ItemParamService {
+	@Autowired
+	private TbItemParamMapper itemParamMapper;
+	@Override
+	public TaotaoResult getParamByCid(Long cid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.whalesj.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.whalesj.service.ItemParamService;
+
+/**
+ * 商品规格参数模板管理Controller
+ * @author wushijia
+ *
+ */
+@Controller
+@RequestMapping("/item/param")
+public class ItemParamController {
+	@Autowired
+	private ItemParamService itemParamService;
+	@RequestMapping("/query/itemcatid/{cid}")
+}
