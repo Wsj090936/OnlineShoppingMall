@@ -2,22 +2,25 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="itemParams" key="selection"/>
+		<item value="online-shoppingmall-portal" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="online-shoppingmall-rest"/>
+			<item value="online-shoppingmall-manager"/>
 			<item value="itemParams"/>
 			<item value="itemAddForm"/>
 			<item value="/item/param/cid/"/>
 			<item value="changeItemParam"/>
 			<item value="selectItemCat"/>
 			<item value="itemParamAddTable"/>
-			<item value="cid"/>
-			<item value="addGroupTr"/>
 		</list>
 		<list key="replacehistory">
+			<item value="online-shoppingmall-portal"/>
+			<item value="online-shoppingmall-rest"/>
+			<item value="online-shoppingmall-manager"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

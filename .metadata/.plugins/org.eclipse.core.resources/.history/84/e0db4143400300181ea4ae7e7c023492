@@ -1,0 +1,11 @@
+package com.whalesj.rest.pojo;
+/**
+ * 描述商品类目及列表的pojo
+ * @author wushijia
+ *
+ */
+public class CatNode {
+	private String url;
+	private String name;
+	private List items;
+}

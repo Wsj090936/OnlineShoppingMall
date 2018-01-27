@@ -1,0 +1,13 @@
+package com.whalesj.portal.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * 首页访问
+ * @author wushijia
+ *
+ */
+@Controller
+public class IndexController {
+
+}

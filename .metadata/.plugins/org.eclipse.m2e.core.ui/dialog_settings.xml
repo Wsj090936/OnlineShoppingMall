@@ -7,6 +7,10 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="online-shoppingmall-portal"/>
+			<item value="online-shoppingmall-parent"/>
+			<item value="online-shopping-mall-portal"/>
+			<item value="online-shoppingmall-rest"/>
 			<item value="fastdfs_client"/>
 			<item value="online-shoppingmall-manager-web"/>
 			<item value="online-shoppingmall-manager"/>
@@ -16,7 +20,6 @@
 			<item value="online-shoppingmall-managet-dao"/>
 			<item value="online-shoppingmall-manage-pojo"/>
 			<item value="online-shoppingmall-managet-pojo"/>
-			<item value="online-shoppingmall-parent"/>
 			<item value="online-shoppingmall-common"/>
 			<item value="online-shoppingmall"/>
 		</list>
@@ -75,6 +78,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="G:\OnlineShoppingMall\online-shoppingmall-manager\online-shoppingmall-manager-web"/>
+			<item value="G:\OnlineShoppingMall\online-shoppingmall-parent\pom.xml"/>
 			<item value="G:\OnlineShoppingMall\online-shoppingmall-common\pom.xml"/>
 			<item value="G:\OnlineShoppingMall\online-shoppingmall-parent"/>
 		</list>

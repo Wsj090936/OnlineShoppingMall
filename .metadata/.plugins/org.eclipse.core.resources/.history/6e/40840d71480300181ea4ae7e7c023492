@@ -1,0 +1,12 @@
+package com.whalesj.rest.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.whalesj.rest.service.ItemCatService;
+
+@Controller
+public class ItemCatController {
+	@Autowired
+	private ItemCatService itemCatService;
+}
