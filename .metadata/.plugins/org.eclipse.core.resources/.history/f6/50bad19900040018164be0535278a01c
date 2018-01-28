@@ -1,0 +1,9 @@
+package com.whalesj.service;
+
+import java.util.List;
+
+import com.whalesj.common.pojo.EasyUiTreeNode;
+
+public interface ContentCatgoryService {
+	List<EasyUiTreeNode> getContentCatList();
+}

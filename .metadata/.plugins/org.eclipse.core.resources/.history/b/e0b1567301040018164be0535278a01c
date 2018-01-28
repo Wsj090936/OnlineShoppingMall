@@ -1,0 +1,39 @@
+package com.whalesj.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.whalesj.common.pojo.EasyUiTreeNode;
+import com.whalesj.mapper.TbContentCategoryMapper;
+import com.whalesj.pojo.TbContentCategory;
+import com.whalesj.pojo.TbContentCategoryExample;
+import com.whalesj.pojo.TbContentCategoryExample.Criteria;
+import com.whalesj.service.ContentCatgoryService;
+
+/**
+ * 内容管理系统(CMS)Service
+ * @author wushijia
+ *
+ */
+public class ContextCatgoryServiceImpl implements ContentCatgoryService {
+	
+	@Autowired
+	private TbContentCategoryMapper contentCategoryMapper ;
+
+	@Override
+	public List<EasyUiTreeNode> getContentCatList(Long parentId) {
+		//根据parentId查询子节点列表
+		TbContentCategoryExample example = new TbContentCategoryExample();
+		Criteria criteria = example.createCriteria();
+		//执行查询
+		List<TbContentCategory> list = contentCategoryMapper.selectByExample(example);
+		//将其转换
+		List<EasyUiTreeNode> resultList = new ArrayList<>();
+		for (TbContentCategory tbContentCategory : list) {
+			
+		}
+		return null;
+	}
+
+}

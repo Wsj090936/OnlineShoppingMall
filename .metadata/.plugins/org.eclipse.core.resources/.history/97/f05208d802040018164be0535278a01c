@@ -1,0 +1,28 @@
+package com.whalesj.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.whalesj.common.pojo.EasyUiTreeNode;
+import com.whalesj.service.ContentCatgoryService;
+
+
+/**
+ * 内容分类管理Controller
+ * @author wushijia
+ *
+ */
+@Controller
+@RequestMapping("/content/category")
+public class ContentCategoryController {
+	@Autowired
+	ContentCatgoryService contentCategoryService;
+	
+	@RequestMapping("/list")
+	public List<EasyUiTreeNode> getContentList(){
+		
+	}
+}

@@ -1,0 +1,27 @@
+package com.whalesj.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.whalesj.common.pojo.EasyUiTreeNode;
+import com.whalesj.mapper.TbContentCategoryMapper;
+import com.whalesj.service.ContentCatgoryService;
+
+/**
+ * 内容管理系统(CMS)Service
+ * @author wushijia
+ *
+ */
+public class ContextCatgoryServiceImpl implements ContentCatgoryService {
+	
+	@Autowired
+	private TbContentCategoryMapper contentCategoryMapper ;
+
+	@Override
+	public List<EasyUiTreeNode> getContentCatList(Long parentId) {
+		
+		return null;
+	}
+
+}

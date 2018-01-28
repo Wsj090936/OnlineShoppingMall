@@ -1,0 +1,16 @@
+package com.whalesj.service.impl;
+
+import java.util.List;
+
+import com.whalesj.common.pojo.EasyUiTreeNode;
+import com.whalesj.service.ContentCatgoryService;
+
+public class ContextCatgoryServiceImpl implements ContentCatgoryService {
+
+	@Override
+	public List<EasyUiTreeNode> getContentCatList(Long parentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
