@@ -1,0 +1,22 @@
+package com.whalesj.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.pojo.TbContent;
+import com.whalesj.service.ContentService;
+
+@Service
+public class ContentServiceImpl implements ContentService {
+
+	@Autowired
+	private ContentService contentService
+	
+	@Override
+	public TaotaoResult insertContent(TbContent tbContent) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

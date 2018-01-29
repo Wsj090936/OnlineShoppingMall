@@ -1,0 +1,35 @@
+package com.whalesj.portal.service.impl;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.utils.HttpClientUtil;
+import com.whalesj.portal.service.ContentService;
+/**
+ * 轮播图的展示
+ * @author wushijia
+ *
+ */
+@Service
+public class ContentServiceImpl implements ContentService {
+
+	@Value("${REST_BASE_URL}")
+	private String REST_BASE_URL;
+	
+	@Value("${REST_CONTENT_URL}")
+	private String REST_CONTENT_URL;
+	
+	@Value("${REST_CONTENT_AD}")
+	private String REST_CONTENT_AD;
+	
+	
+	@Override
+	public String getAdList() {
+		//调用服务获得数据
+		//url:http://localhost:8081/rest/content/89
+		String string = HttpClientUtil.doGet(REST_BASE_URL+REST_CONTENT_URL+REST_CONTENT_AD);
+		
+		return null;
+	}
+
+}

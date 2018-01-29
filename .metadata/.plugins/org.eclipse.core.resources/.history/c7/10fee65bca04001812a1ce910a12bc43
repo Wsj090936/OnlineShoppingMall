@@ -1,0 +1,24 @@
+package com.whalesj.portal.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.utils.HttpClientUtil;
+import com.whalesj.portal.service.ContentService;
+/**
+ * 轮播图的展示
+ * @author wushijia
+ *
+ */
+@Service
+public class ContentServiceImpl implements ContentService {
+
+	@Override
+	public String getAdList() {
+		//调用服务获得数据
+		//url:http://localhost:8081/rest/content/89
+		HttpClientUtil.doGet("http://localhost:8081/rest/content/89", param)
+		
+		return null;
+	}
+
+}

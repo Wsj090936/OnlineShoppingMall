@@ -1,0 +1,5 @@
+package com.whalesj.rest.controller;
+
+public class ContentController {
+
+}

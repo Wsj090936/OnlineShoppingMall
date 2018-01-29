@@ -1,0 +1,11 @@
+package com.whalesj.protal.pojo;
+
+public class AdNode {
+	private int height;
+	private int width;
+	private
+	private
+	private
+	private
+	private
+}

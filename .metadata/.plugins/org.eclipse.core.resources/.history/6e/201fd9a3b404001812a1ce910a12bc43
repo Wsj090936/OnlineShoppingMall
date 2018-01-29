@@ -1,0 +1,15 @@
+package com.whalesj.service.impl;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.pojo.TbContent;
+import com.whalesj.service.ContentService;
+
+public class ContentServiceImpl implements ContentService {
+
+	@Override
+	public TaotaoResult insertContent(TbContent tbContent) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

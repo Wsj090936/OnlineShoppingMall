@@ -1,0 +1,13 @@
+package com.whalesj.portal.service.impl;
+
+import com.whalesj.portal.service.ContentService;
+
+public class ContentServiceImpl implements ContentService {
+
+	@Override
+	public String getAdList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

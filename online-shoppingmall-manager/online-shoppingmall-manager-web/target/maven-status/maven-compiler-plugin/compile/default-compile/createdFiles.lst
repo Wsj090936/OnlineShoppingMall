@@ -1,5 +1,7 @@
 com\whalesj\controller\ItemParamController.class
 com\whalesj\controller\PictureController.class
 com\whalesj\controller\PageController.class
+com\whalesj\controller\ContentCategoryController.class
 com\whalesj\controller\ItemController.class
+com\whalesj\controller\ContentController.class
 com\whalesj\controller\ItemCatController.class

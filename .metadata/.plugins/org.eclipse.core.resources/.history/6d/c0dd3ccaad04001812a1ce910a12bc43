@@ -1,0 +1,5 @@
+package com.whalesj.service;
+
+public interface ContentService {
+	public TaotaoResult insertContent();
+}

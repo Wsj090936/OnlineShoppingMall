@@ -6,4 +6,7 @@
 <typeInfo handle="=online-shoppingmall-manager-service/src\/main\/java&lt;com.whalesj.service{PictureService.java[PictureService" modifiers="513" timestamp="1516867304338"/>
 <typeInfo handle="=online-shoppingmall-manager-service/src\/main\/java&lt;com.whalesj.service{ItemParamService.java[ItemParamService" modifiers="513" timestamp="1516953702885"/>
 <typeInfo handle="=online-shoppingmall-rest/src\/main\/java&lt;com.whalesj.rest.service{ItemCatService.java[ItemCatService" modifiers="513" timestamp="1517044485392"/>
+<typeInfo handle="=online-shoppingmall-manager-service/src\/main\/java&lt;com.whalesj.service{ContentService.java[ContentService" modifiers="513" timestamp="1517200510364"/>
+<typeInfo handle="=online-shoppingmall-rest/src\/main\/java&lt;com.whalesj.rest.service{ContentService.java[ContentService" modifiers="513" timestamp="1517210331393"/>
+<typeInfo handle="=online-shoppingmall-portal/src\/main\/java&lt;com.whalesj.portal.service{ContentService.java[ContentService" modifiers="513" timestamp="1517212593993"/>
 </typeInfoHistroy>

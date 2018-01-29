@@ -1,0 +1,16 @@
+package com.whalesj.rest.service.Impl;
+
+import java.util.List;
+
+import com.whalesj.pojo.TbContent;
+import com.whalesj.rest.service.ContentService;
+
+public class ContentServiceImpl implements ContentService {
+
+	@Override
+	public List<TbContent> getContentList(Long cid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

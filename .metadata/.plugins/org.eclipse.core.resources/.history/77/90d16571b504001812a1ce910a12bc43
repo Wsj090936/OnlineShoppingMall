@@ -1,0 +1,7 @@
+package com.whalesj.controller;
+
+
+@Controller
+public class ContentController {
+
+}

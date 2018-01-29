@@ -1,0 +1,29 @@
+package com.whalesj.rest.service.Impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.mapper.TbContentMapper;
+import com.whalesj.pojo.TbContent;
+import com.whalesj.rest.service.ContentService;
+
+/**
+ * 内容查询服务Service
+ * @author wushijia
+ *
+ */
+@Service
+public class ContentServiceImpl implements ContentService {
+	
+	@Autowired
+	private TbContentMapper contentMapper;
+
+	@Override
+	public List<TbContent> getContentList(Long cid) {
+		contentMapper.selectByExample(example);
+		return null;
+	}
+
+}

@@ -1,7 +1,0 @@
-package com.whalesj.service;
-
-import com.whalesj.pojo.TbItem;
-
-public interface ItemService {
-	public TbItem getItem(Long tbitem);
-}
