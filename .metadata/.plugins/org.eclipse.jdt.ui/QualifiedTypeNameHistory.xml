@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.whalesj.controller.utils.FastDFSClient"/>
 <fullyQualifiedTypeName name="org.csource.fastdfs.ClientGlobal"/>
 <fullyQualifiedTypeName name="org.csource.fastdfs.TrackerClient"/>
 <fullyQualifiedTypeName name="org.csource.fastdfs.StorageClient"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.whalesj.portal.service.ContentService"/>
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,63 @@
+package com.whalesj.rest.component.Impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.whalesj.rest.component.JedisClient;
+
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
+
+public class JedisClientSingle implements JedisClient {
+	@Autowired
+	private JedisPool jedisPool;//由Spring注入
+
+	@Override
+	public String set(String key, String value) {
+		Jedis jedis = jedisPool.getResource();
+		jedis.set(key, value);
+		return null;
+	}
+
+	@Override
+	public String get(String key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String hset(String key, String item, String value) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String hget(String key, String item) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Long incr(String key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Long decr(String key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Long expire(String key, int second) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Long ttl(String key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

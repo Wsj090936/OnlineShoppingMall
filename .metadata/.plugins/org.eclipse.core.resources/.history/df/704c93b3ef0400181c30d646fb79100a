@@ -1,0 +1,10 @@
+package test1;
+
+public class STest {
+	@Test
+	public void fun1(){
+		String s = "abc";
+		char[] a = {'a','b','c'};
+		String s = new String(a);
+	}
+}

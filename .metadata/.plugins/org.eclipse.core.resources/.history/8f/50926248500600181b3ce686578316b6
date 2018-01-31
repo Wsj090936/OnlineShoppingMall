@@ -1,0 +1,5 @@
+package com.whalesj.jedis;
+
+public class JedisTest {
+
+}

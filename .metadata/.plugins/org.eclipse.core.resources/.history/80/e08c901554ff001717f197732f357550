@@ -1,5 +1,0 @@
-package com.whalesj.service;
-
-public interface ItemCatService {
-	public List<EasyUiTreeNode> getItemCatList(long parentId);
-}

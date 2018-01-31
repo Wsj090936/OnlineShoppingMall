@@ -1,7 +1,0 @@
-package com.whalesj.service.impl;
-
-import com.whalesj.service.ItemCatService;
-
-public class ItemCatServiceImpl implements ItemCatService{
-
-}

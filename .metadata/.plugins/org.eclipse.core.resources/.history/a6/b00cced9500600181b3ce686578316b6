@@ -1,0 +1,18 @@
+package com.whalesj.jedis;
+
+import org.junit.Test;
+
+import redis.clients.jedis.Jedis;
+
+public class JedisTest {
+
+	//单机测试
+	@Test
+	public void testJedisSingle(){
+		Jedis jedis = new Jedis("192.168.25.133",6379);//ip与端口
+		jedis.set("test", "hello1");
+		String string = jedis.get("test");
+		System.out.println(string);
+		jedis.close();//关闭
+	}
+}

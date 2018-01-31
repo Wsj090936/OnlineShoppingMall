@@ -1,0 +1,7 @@
+package com.whalesj.rest.component;
+
+public interface JedisClient {
+	public String set(String key,String value);
+	public String get(String key);
+	public String hset(String key,String item,String value);
+}

@@ -1,0 +1,13 @@
+package test1;
+
+import org.junit.Test;
+
+public class STest {
+	@Test
+	public void fun1(){
+		String s = "abc";
+		char[] a = {'a','b','c'};
+		String s1 = new String(a);
+		System.out.println(s.equals(s1));
+	}
+}

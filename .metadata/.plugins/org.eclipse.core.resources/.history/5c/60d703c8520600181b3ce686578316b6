@@ -1,0 +1,54 @@
+package com.whalesj.jedis;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.junit.Test;
+
+import redis.clients.jedis.HostAndPort;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisCluster;
+import redis.clients.jedis.JedisPool;
+
+public class JedisTest {
+
+	//单机测试
+	@Test
+	public void testJedisSingle(){
+		Jedis jedis = new Jedis("192.168.25.133",6379);//ip与端口
+		jedis.set("test", "hello1");//添加一个key
+		String string = jedis.get("test");
+		System.out.println(string);
+		jedis.close();//关闭
+	}
+	//使用连接池
+	@Test
+	public void TestJedisSinglePool(){
+		JedisPool jedisPool = new JedisPool("192.168.25.133",6379);//系统中是单例
+		//从连接池中获得一个连接
+		Jedis jedis = jedisPool.getResource();
+		String string = jedis.get("test");
+		System.out.println(string);
+		//用完后关闭jedis，让连接池将其回收
+		jedis.close();
+		//系统关闭时，关闭连接池
+		jedisPool.close();
+	}
+	
+	@Test
+	public void TestJedisCluster(){
+		//创建一个JedisCluster对象
+		//在node中指定每一个节点的地址
+		Set<HostAndPort> nodes = new HashSet<>();
+		nodes.add(new HostAndPort("192.168.25.133", 7001));
+		nodes.add(new HostAndPort("192.168.25.133", 7002));
+		nodes.add(new HostAndPort("192.168.25.133", 7003));
+		nodes.add(new HostAndPort("192.168.25.133", 7004));
+		nodes.add(new HostAndPort("192.168.25.133", 7005));
+		nodes.add(new HostAndPort("192.168.25.133", 7006));
+		JedisCluster jedisCluster = new JedisCluster(nodes);
+		jedisCluster.set("name", "张三");
+		String string = jedisCluster.get("name");
+		System.out.println(string);
+	}
+}

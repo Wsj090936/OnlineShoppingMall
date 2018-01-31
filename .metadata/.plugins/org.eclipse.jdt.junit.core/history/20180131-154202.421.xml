@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="JedisTest.testJedisClientSpring" project="online-shoppingmall-rest" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="testJedisClientSpring" classname="com.whalesj.jedis.JedisTest" time="2.262"/>
+</testrun>

@@ -1,0 +1,9 @@
+package com.whalesj.jedis;
+
+public class JedisTest {
+
+	//单机测试
+	public void testJedisSingle(){
+		Jedis jedis = new Jedis();
+	}
+}

@@ -9,4 +9,6 @@
 <typeInfo handle="=online-shoppingmall-manager-service/src\/main\/java&lt;com.whalesj.service{ContentService.java[ContentService" modifiers="513" timestamp="1517200510364"/>
 <typeInfo handle="=online-shoppingmall-rest/src\/main\/java&lt;com.whalesj.rest.service{ContentService.java[ContentService" modifiers="513" timestamp="1517210331393"/>
 <typeInfo handle="=online-shoppingmall-portal/src\/main\/java&lt;com.whalesj.portal.service{ContentService.java[ContentService" modifiers="513" timestamp="1517212593993"/>
+<typeInfo handle="=online-shoppingmall-common/G:\/MavenRepo\/repo\/com\/fasterxml\/jackson\/core\/jackson-databind\/2.4.2\/jackson-databind-2.4.2.jar&lt;com.fasterxml.jackson.databind.deser.impl(PropertyValue$Map.class[Map" modifiers="24" timestamp="1513257307395"/>
+<typeInfo handle="=generatorSqlmapCustom/C:\/Program Files\/Java\/jdk1.8.0_131\/jre\/lib\/rt.jar&lt;java.util(HashMap.class[HashMap" modifiers="33" timestamp="1499873472740"/>
 </typeInfoHistroy>
