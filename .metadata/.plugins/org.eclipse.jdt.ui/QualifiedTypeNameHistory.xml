@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.csource.fastdfs.ClientGlobal"/>
-<fullyQualifiedTypeName name="org.csource.fastdfs.TrackerClient"/>
-<fullyQualifiedTypeName name="org.csource.fastdfs.StorageClient"/>
-<fullyQualifiedTypeName name="org.csource.common.NameValuePair"/>
-<fullyQualifiedTypeName name="com.whalesj.common.utils.FastDFSClient"/>
-<fullyQualifiedTypeName name="com.whalesj.service.PictureService"/>
-<fullyQualifiedTypeName name="com.whalesj.common.pojo.PictureResult"/>
-<fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
-<fullyQualifiedTypeName name="com.whalesj.common.utils.IDUtils"/>
 <fullyQualifiedTypeName name="com.whalesj.pojo.TbItemDesc"/>
 <fullyQualifiedTypeName name="com.whalesj.mapper.TbItemDescMapper"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
@@ -28,7 +19,6 @@
 <fullyQualifiedTypeName name="com.whalesj.rest.pojo.CatNode"/>
 <fullyQualifiedTypeName name="com.whalesj.rest.service.ItemCatService"/>
 <fullyQualifiedTypeName name="com.whalesj.rest.pojo.ItemCatResult"/>
-<fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
 <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
 <fullyQualifiedTypeName name="com.whalesj.mapper.TbContentCategoryMapper"/>
 <fullyQualifiedTypeName name="com.whalesj.service.ContentCatgoryService"/>
@@ -44,20 +34,30 @@
 <fullyQualifiedTypeName name="com.whalesj.pojo.TbContentExample"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="com.whalesj.rest.service.ContentService"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-<fullyQualifiedTypeName name="com.whalesj.common.utils.HttpClientUtil"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
-<fullyQualifiedTypeName name="com.whalesj.common.pojo.TaotaoResult"/>
 <fullyQualifiedTypeName name="com.whalesj.pojo.TbContent"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.whalesj.protal.pojo.AdNode"/>
-<fullyQualifiedTypeName name="com.whalesj.common.utils.JsonUtils"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.whalesj.portal.service.ContentService"/>
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="redis.clients.jedis.Jedis"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="redis.clients.jedis.HostAndPort"/>
+<fullyQualifiedTypeName name="redis.clients.jedis.JedisPool"/>
+<fullyQualifiedTypeName name="redis.clients.jedis.JedisCluster"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.whalesj.rest.component.JedisClient"/>
+<fullyQualifiedTypeName name="com.whalesj.common.utils.JsonUtils"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="com.whalesj.common.pojo.TaotaoResult"/>
+<fullyQualifiedTypeName name="com.whalesj.common.utils.HttpClientUtil"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
 </qualifiedTypeNameHistroy>

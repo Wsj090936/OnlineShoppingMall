@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="JedisTest.TestJedisCluster" project="online-shoppingmall-rest" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testcase name="TestJedisCluster" classname="com.whalesj.jedis.JedisTest" time="0.114"/>
-</testrun>
