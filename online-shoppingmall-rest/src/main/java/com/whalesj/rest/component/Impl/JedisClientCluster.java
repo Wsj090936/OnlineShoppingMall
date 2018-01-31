@@ -64,4 +64,9 @@ public class JedisClientCluster implements JedisClient {
 		return jedisCluster.ttl(key);
 	}
 
+	@Override
+	public Long hdel(String key, String item) {
+		return jedisCluster.hdel(key, item);
+	}
+
 }

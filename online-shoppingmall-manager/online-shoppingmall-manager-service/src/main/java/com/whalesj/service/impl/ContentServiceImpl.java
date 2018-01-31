@@ -26,6 +26,7 @@ public class ContentServiceImpl implements ContentService {
 		tbContent.setCreated(new Date());
 		//插入
 		tbContentMapper.insert(tbContent);
+		
 		return TaotaoResult.ok();
 	}
 

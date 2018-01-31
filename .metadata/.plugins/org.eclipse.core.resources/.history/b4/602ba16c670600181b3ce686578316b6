@@ -1,0 +1,4 @@
+#图片服务器的URL
+IMAGE_SERVER_BASE_URL=http://192.168.25.133/
+#服务层rest的基础url
+REST_BASE_URL=http://localhost:8081/rest/sync/content/89

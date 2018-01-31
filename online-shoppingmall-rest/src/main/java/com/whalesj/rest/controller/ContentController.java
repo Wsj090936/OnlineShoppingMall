@@ -28,4 +28,15 @@ public class ContentController {
 			return TaotaoResult.build(500, "出错了！请重试");
 		}
 	}
+	@RequestMapping("/sync/content/{cid}")
+	@ResponseBody
+	public TaotaoResult synContent(@PathVariable Long cid){
+		try {
+			TaotaoResult result = contentService.synContent(cid);
+			return result;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return TaotaoResult.build(500, "出错啦！");
+		}
+	}
 }
