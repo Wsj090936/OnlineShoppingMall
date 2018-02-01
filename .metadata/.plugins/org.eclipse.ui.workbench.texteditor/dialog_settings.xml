@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="online-shoppingmall-search" key="selection"/>
+		<item value="搜索" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="搜索"/>
 			<item value="online-shoppingmall-rest"/>
 			<item value="online-shoppingmall-manager"/>
 			<item value="itemParams"/>
@@ -15,7 +16,6 @@
 			<item value="/item/param/cid/"/>
 			<item value="changeItemParam"/>
 			<item value="selectItemCat"/>
-			<item value="itemParamAddTable"/>
 		</list>
 		<list key="replacehistory">
 			<item value="online-shoppingmall-search"/>

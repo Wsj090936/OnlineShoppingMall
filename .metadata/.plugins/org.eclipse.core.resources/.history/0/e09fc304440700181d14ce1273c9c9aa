@@ -1,0 +1,8 @@
+#轮播图的请求URL
+
+#基础URL
+REST_BASE_URL=http://localhost:8081/rest
+#内容查询URL
+REST_CONTENT_URL=/content/
+#广告位的Category_ID
+REST_CONTENT_AD=89

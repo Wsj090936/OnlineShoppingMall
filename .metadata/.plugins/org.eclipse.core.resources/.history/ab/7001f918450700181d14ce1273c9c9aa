@@ -1,0 +1,17 @@
+package com.whalesj.portal.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.whalesj.portal.service.SearchService;
+
+/**
+ * 商品查询
+ * @author wushijia
+ *
+ */
+@Controller
+public class SearchController {
+	@Autowired
+	private SearchService searchService;
+}

@@ -1,0 +1,27 @@
+package com.whalesj.portal.service.impl;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.utils.HttpClientUtil;
+import com.whalesj.portal.service.SearchService;
+import com.whalesj.protal.pojo.SearchResult;
+/**
+ * 调用搜索服务
+ * @author wushijia
+ *
+ */
+@Service
+public class SearchServiceImpl implements SearchService {
+
+	@Override
+	public SearchResult search(String keyword, int page, int rows) {
+		//调用服务查询商品
+		Map<String, String> param = new HashMap<>();
+		HttpClientUtil.doGet("", param);
+		return null;
+	}
+
+}

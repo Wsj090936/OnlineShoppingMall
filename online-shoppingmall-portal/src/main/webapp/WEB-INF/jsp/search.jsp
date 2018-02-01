@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="Cache-Control" content="max-age=300" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>${query} - 商品搜索 - 淘淘</title>
+<title>${query}商品搜索 </title>
 <meta name="Keywords" content="java,淘淘java" />
 <meta name="description" content="在淘淘中找到了29910件java的类似商品，其中包含了“图书”，“电子书”，“教育音像”，“骑行运动”等类型的java的商品。" />
 <link rel="stylesheet" type="text/css" href="/css/base.css" media="all" />
@@ -44,7 +44,7 @@
 <li class="item-book" bookid="11078102">
 	<div class="p-img">
 		<a target="_blank" href="/item/${item.id }.html">
-			<img width="160" height="160" data-img="1" data-lazyload="${item.images[0]}" />
+			<img width="160" height="160" data-img="1" data-lazyload="${item.image}" />
 		</a>
 	</div>
 	<div class="p-name">

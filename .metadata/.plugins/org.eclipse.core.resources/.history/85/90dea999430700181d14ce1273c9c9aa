@@ -1,0 +1,21 @@
+package com.whalesj.portal.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.whalesj.portal.service.SearchService;
+import com.whalesj.protal.pojo.SearchResult;
+/**
+ * 调用搜索服务
+ * @author wushijia
+ *
+ */
+@Service
+public class SearchServiceImpl implements SearchService {
+
+	@Override
+	public SearchResult search(String keyword, int page, int rows) {
+		
+		return null;
+	}
+
+}

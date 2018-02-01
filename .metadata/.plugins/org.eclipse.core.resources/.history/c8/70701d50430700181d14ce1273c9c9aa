@@ -1,0 +1,7 @@
+package com.whalesj.portal.service.impl;
+
+import com.whalesj.portal.service.SearchService;
+
+public class SearchServiceImpl implements SearchService {
+
+}
