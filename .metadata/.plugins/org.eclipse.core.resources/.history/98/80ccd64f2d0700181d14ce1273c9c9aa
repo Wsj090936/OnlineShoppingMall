@@ -1,0 +1,5 @@
+package com.whalesj.search.service;
+
+public interface SearchService {
+
+}

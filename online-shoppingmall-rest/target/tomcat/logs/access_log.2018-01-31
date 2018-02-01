@@ -1,2 +1,0 @@
-0:0:0:0:0:0:0:1 - - [31/Jan/2018:17:01:19 +0800] "GET /rest/sync/content/89 HTTP/1.1" 200 48 http-bio-8081-exec-1 197
-0:0:0:0:0:0:0:1 - - [31/Jan/2018:17:01:19 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8081-exec-2 3

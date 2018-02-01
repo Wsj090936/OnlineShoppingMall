@@ -27,6 +27,6 @@
 	</bean>
 	<!-- 配置包扫描，将mapper接口生成的代理对象放到Spring容器中 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.whalesj.mapper"></property>
+		<property name="basePackage" value="com.whalesj.search.mapper"></property>
 	</bean>
 </beans>

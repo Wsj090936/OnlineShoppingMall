@@ -1,0 +1,29 @@
+package com.whalesj.search.dao.Impl;
+
+import org.apache.solr.client.solrj.SolrQuery;
+import org.apache.solr.client.solrj.SolrServer;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.search.dao.SearchDao;
+import com.whalesj.search.pojo.SearchResult;
+
+
+/**
+ * 查询Solr的Dao
+ * @author wushijia
+ *
+ */
+@Repository
+public class SearchDaoImpl implements SearchDao {
+
+	@Autowired
+	private SolrServer solrServer;
+	
+	@Override
+	public SearchResult search(SolrQuery query) {
+		return null;
+	}
+
+}

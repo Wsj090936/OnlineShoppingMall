@@ -1,0 +1,44 @@
+package com.whalesj.search.service.Impl;
+
+import java.util.List;
+
+import org.apache.solr.client.solrj.SolrServer;
+import org.apache.solr.common.SolrInputDocument;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.search.mapper.ItemMapper;
+import com.whalesj.search.pojo.SearchItem;
+import com.whalesj.search.service.ItemService;
+
+/**
+ * 商品信息导入至索引库
+ * @author wushijia
+ *
+ */
+@Service
+public class ItemServiceImpl implements ItemService{
+	
+	@Autowired
+	private ItemMapper itemMapper;
+	
+	@Autowired
+	private SolrServer solrServer;
+	
+	@Override
+	public TaotaoResult importItems() throws Exception {
+		List<SearchItem> itemList = itemMapper.getItemList();
+		for (SearchItem item : itemList) {
+			//创建文档对象
+			SolrInputDocument document = new SolrInputDocument();
+			//添加域
+			document.addField("id", item.getId());
+			
+			solrServer.add(document);
+		}
+		solrServer.commit();
+		return TaotaoResult.ok();
+	}
+
+}

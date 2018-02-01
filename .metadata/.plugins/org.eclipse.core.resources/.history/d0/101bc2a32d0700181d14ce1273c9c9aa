@@ -1,0 +1,14 @@
+package com.whalesj.search.service.Impl;
+
+import com.whalesj.search.pojo.SearchResult;
+import com.whalesj.search.service.SearchService;
+
+public class SearchServiceImpl implements SearchService{
+
+	@Override
+	public SearchResult search(String queryString, int page, int rows) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

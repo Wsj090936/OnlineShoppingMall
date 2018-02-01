@@ -1,0 +1,10 @@
+package com.whalesj.search.pojo;
+
+import java.util.List;
+
+public class SearchResult {
+	private List<SearchItem> itemList;
+	private Long recordCount;//总记录数
+	private int pageCount;//页数
+	private int curPage;
+}

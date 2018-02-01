@@ -1,0 +1,9 @@
+package com.whalesj.search.mapper;
+/**
+ * 搜索服务器的Mapper
+ * @author wushijia
+ *
+ */
+public interface ItemMapper {
+	public List<SearchItem> getItemList();
+}

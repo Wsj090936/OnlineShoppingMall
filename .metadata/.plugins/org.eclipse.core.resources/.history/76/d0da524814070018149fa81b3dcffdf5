@@ -1,0 +1,19 @@
+package com.whalesj.search.service.Impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.search.service.ItemService;
+
+public class ItemServiceImpl implements ItemService {
+	
+	@Autowired
+	private ItemMapper itemMapper;
+	
+	@Override
+	public TaotaoResult importItems() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

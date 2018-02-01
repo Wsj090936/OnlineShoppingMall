@@ -1,0 +1,16 @@
+package com.whalesj.search.dao.Impl;
+
+import org.apache.solr.client.solrj.SolrQuery;
+
+import com.whalesj.search.dao.SearchDao;
+import com.whalesj.search.pojo.SearchResult;
+
+public class SearchDaoImpl implements SearchDao {
+
+	@Override
+	public SearchResult search(SolrQuery query) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

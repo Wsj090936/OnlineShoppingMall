@@ -1,0 +1,23 @@
+package com.whalesj.search.dao.Impl;
+
+import org.apache.solr.client.solrj.SolrQuery;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.search.dao.SearchDao;
+import com.whalesj.search.pojo.SearchResult;
+
+
+/**
+ * 查询Solr的Dao
+ * @author wushijia
+ *
+ */
+@Service
+public class SearchDaoImpl implements SearchDao {
+
+	@Override
+	public SearchResult search(SolrQuery query) {
+		return null;
+	}
+
+}

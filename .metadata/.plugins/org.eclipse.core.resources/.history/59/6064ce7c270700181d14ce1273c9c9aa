@@ -1,0 +1,5 @@
+package com.whalesj.search.pojo;
+
+public class SearchResult {
+
+}

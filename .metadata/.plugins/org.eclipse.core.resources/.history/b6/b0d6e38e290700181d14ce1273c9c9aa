@@ -1,0 +1,5 @@
+package com.whalesj.search.dao;
+
+public interface SearchDao {
+	private SearchResult search(SolrQuery query);
+}

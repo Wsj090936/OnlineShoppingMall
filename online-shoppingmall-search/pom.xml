@@ -61,6 +61,33 @@
 				<groupId>org.apache.solr</groupId>
 				<artifactId>solr-solrj</artifactId>
 			</dependency>
+			<dependency>  
+    			<groupId>org.apache.httpcomponents</groupId>  
+        		<artifactId>httpmime</artifactId>  
+       			<version>4.3.1</version>  
+			</dependency>
+			<dependency>  
+    			<groupId>org.noggit</groupId>  
+        		<artifactId>noggit</artifactId>  
+       			<version>0.5</version>  
+			</dependency>
+			<!-- Mybatis -->
+			<dependency>
+				<groupId>org.mybatis</groupId>
+				<artifactId>mybatis</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>org.mybatis</groupId>
+				<artifactId>mybatis-spring</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>com.github.miemiedev</groupId>
+				<artifactId>mybatis-paginator</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>com.github.pagehelper</groupId>
+				<artifactId>pagehelper</artifactId>
+			</dependency>
   </dependencies>
   <!-- 添加tomcat插件 -->
 	<build>
@@ -74,5 +101,26 @@
 				</configuration>
 			</plugin>
 		</plugins>
+	<!-- 如果不添加此节点mybatis的mapper.xml文件都会被漏掉。 -->
+		<resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            
+        </resources>
 	</build>
+
 </project>

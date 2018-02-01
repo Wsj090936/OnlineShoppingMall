@@ -1,0 +1,47 @@
+package com.whalesj.search.dao.Impl;
+
+import org.apache.solr.client.solrj.SolrQuery;
+import org.apache.solr.client.solrj.SolrServer;
+import org.apache.solr.client.solrj.SolrServerException;
+import org.apache.solr.client.solrj.response.QueryResponse;
+import org.apache.solr.common.SolrDocument;
+import org.apache.solr.common.SolrDocumentList;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.search.dao.SearchDao;
+import com.whalesj.search.pojo.SearchItem;
+import com.whalesj.search.pojo.SearchResult;
+
+
+/**
+ * 查询Solr的Dao
+ * @author wushijia
+ *
+ */
+@Repository
+public class SearchDaoImpl implements SearchDao {
+
+	@Autowired
+	private SolrServer solrServer;
+	
+	@Override
+	public SearchResult search(SolrQuery query) throws Exception {
+		//执行查询
+		QueryResponse response = solrServer.query(query);
+		//取结果列表
+		SolrDocumentList solrDocumentList = response.getResults();
+		//遍历该列表
+		for (SolrDocument solrDocument : solrDocumentList) {
+			//创建一个SearchItem对象
+			SearchItem item = new SearchItem();
+			item.setCategory_name(solrDocument.get("item_category_name"));
+			item.setId(solrDocument.get("id"));
+			item.setImage(solrDocument.get("item_image"));
+			item.setPrice("item_price");
+		}
+		return null;
+	}
+
+}

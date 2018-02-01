@@ -1,0 +1,14 @@
+package com.whalesj.search.controller;
+
+import org.springframework.stereotype.Controller;
+
+
+/**
+ * 导入商品数据Controller
+ * @author wushijia
+ *
+ */
+@Controller
+public class ItemController {
+
+}

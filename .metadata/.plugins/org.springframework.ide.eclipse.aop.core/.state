@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="online-shoppingmall-manager-service"/>
+<aop-project name="online-shoppingmall-search"/>
 <aop-project name="online-shoppingmall-portal"/>
 <aop-project name="online-shoppingmall-manager-web">
 <aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="31" aspect-name="txAdvice" aspect-start-line-number="31" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/online-shoppingmall-manager-web/src/main/resources/spring/applicationContext-trans.xml" pointcut-expression="execution(* com.whalesj.service.*.*(..))" proxy-target-class="false">

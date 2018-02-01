@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TbItemMapper.xml&apos; to &apos;online-shoppingmall-search/src/main/java/com.whalesj.search.mapper&apos;&#x0D;&#x0A;- Original project: &apos;online-shoppingmall-manager-dao&apos;&#x0D;&#x0A;- Destination element: &apos;online-shoppingmall-search/src/main/java/com.whalesj.search.mapper&apos;&#x0D;&#x0A;- Original element: &apos;TbItemMapper.xml&apos;" description="Copy file" destination="=online-shoppingmall-search/src\/main\/java&lt;com.whalesj.search.mapper" element1="src/main/java/com/whalesj/mapper/TbItemMapper.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1517463592820" units="0" version="1.0"/>
+</session>

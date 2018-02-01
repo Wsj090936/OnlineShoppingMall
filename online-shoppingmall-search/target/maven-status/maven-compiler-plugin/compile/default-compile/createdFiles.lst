@@ -1,0 +1,11 @@
+com\whalesj\search\service\Impl\SearchServiceImpl.class
+com\whalesj\search\service\ItemService.class
+com\whalesj\search\controller\SearchController.class
+com\whalesj\search\dao\Impl\SearchDaoImpl.class
+com\whalesj\search\dao\SearchDao.class
+com\whalesj\search\pojo\SearchResult.class
+com\whalesj\search\mapper\ItemMapper.class
+com\whalesj\search\service\SearchService.class
+com\whalesj\search\controller\ItemController.class
+com\whalesj\search\service\Impl\ItemServiceImpl.class
+com\whalesj\search\pojo\SearchItem.class

@@ -1,0 +1,29 @@
+package com.whalesj.search.service.Impl;
+
+import org.apache.solr.client.solrj.SolrQuery;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.search.dao.SearchDao;
+import com.whalesj.search.pojo.SearchResult;
+import com.whalesj.search.service.SearchService;
+
+/**
+ * solr查询Service
+ * @author wushijia
+ *
+ */
+@Service
+public class SearchServiceImpl implements SearchService{
+	
+	@Autowired
+	private SearchDao searchDao;
+	
+	@Override
+	public SearchResult search(String queryString, int page, int rows) throws Exception {
+		//创建查询条件
+		SolrQuery query = new SolrQuery();
+		return null;
+	}
+
+}
