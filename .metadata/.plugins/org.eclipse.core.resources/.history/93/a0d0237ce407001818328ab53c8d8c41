@@ -1,0 +1,5 @@
+package com.whalesj.portal.service;
+
+public interface ItemService {
+
+}

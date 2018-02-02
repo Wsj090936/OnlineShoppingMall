@@ -1,0 +1,13 @@
+package com.whalesj.rest.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * 商品管理Controller
+ * @author wushijia
+ *
+ */
+@Controller
+public class ItemController {
+
+}

@@ -1,0 +1,34 @@
+package com.whalesj.portal.service.impl;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.common.utils.HttpClientUtil;
+import com.whalesj.pojo.TbItem;
+import com.whalesj.portal.service.ItemService;
+
+/**
+ * 调用rest工程发布的服务，查询商品信息
+ * @author wushijia
+ *
+ */
+@Service
+public class ItemServiceImpl implements ItemService {
+	
+	@Value("${REST_BASE_URL}")
+	private String REST_BASE_URL;
+	
+	@Value("${REST_ITEM_BASE_URL}")
+	private String REST_ITEM_BASE_URL;//请求服务的url
+
+	@Override
+	public TbItem getItemById(Long itemId) {
+		//根据商品id查询商品的基本信息
+		String json = HttpClientUtil.doGet(REST_BASE_URL+REST_ITEM_BASE_URL+itemId);
+		//转换为java对象
+		TaotaoResult.formatToPojo(json, TbItem.class);
+		return null;
+	}
+
+}

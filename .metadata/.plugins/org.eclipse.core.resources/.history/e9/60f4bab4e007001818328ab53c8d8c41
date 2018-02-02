@@ -1,0 +1,9 @@
+package com.whalesj.rest.service;
+
+import com.whalesj.pojo.TbItem;
+import com.whalesj.pojo.TbItemDesc;
+
+public interface ItemService {
+	public TbItem getItemById(Long itemId);
+	public TbItemDesc getItemDescById(Long itemId);
+}

@@ -1,0 +1,100 @@
+package com.whalesj.rest.service.Impl;
+
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.utils.JsonUtils;
+import com.whalesj.mapper.TbItemDescMapper;
+import com.whalesj.mapper.TbItemMapper;
+import com.whalesj.pojo.TbItem;
+import com.whalesj.pojo.TbItemDesc;
+import com.whalesj.rest.component.JedisClient;
+import com.whalesj.rest.service.ItemService;
+
+
+/**
+ * 商品管理Service
+ * @author wushijia
+ *
+ */
+@Service
+public class ItemServiceImpl implements ItemService {
+	
+	@Autowired
+	private TbItemMapper itemMapper;
+	
+	@Autowired
+	private TbItemDescMapper itemDescMapper;
+	
+	@Autowired
+	private JedisClient jedisClient;
+	
+	@Value("${REDIS_ITEM_KEY}")
+	private String REDIS_ITEM_KEY;
+	@Value("${ITEM_BASE_INFO_KEY}")
+	private String ITEM_BASE_INFO_KEY;//商品基本信息key的一部分
+	@Value("${ITEM_EXPIRE_SECOND}")
+	private Integer ITEM_EXPIRE_SECOND;//过期时间
+	@Value("${ITEM_DESC_KEY}")
+	private String ITEM_DESC_KEY;
+
+	@Override
+	public TbItem getItemById(Long itemId) {//根据商品id查询信息
+		//查询redis缓存，有就直接返回
+		try {
+			String json = jedisClient.get(REDIS_ITEM_KEY+":"+ITEM_BASE_INFO_KEY+":"+itemId);
+			//判断数据是否存在
+			if(StringUtils.isNotBlank(json)){
+				//将json数据转换为java对象
+				TbItem item = JsonUtils.jsonToPojo(json, TbItem.class);
+				return item;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		//没有就取数据库中查
+		TbItem tbItem = itemMapper.selectByPrimaryKey(itemId);
+		
+		//向redis中添加缓存
+		try {
+			jedisClient.set(REDIS_ITEM_KEY+":"+ITEM_BASE_INFO_KEY+":"+itemId, JsonUtils.objectToJson(tbItem));
+			//设置过期时间
+			jedisClient.expire(REDIS_ITEM_KEY+":"+ITEM_BASE_INFO_KEY+":"+itemId, ITEM_EXPIRE_SECOND);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return tbItem;
+	}
+
+	@Override
+	public TbItemDesc getItemDescById(Long itemId) {//根据商品id查询商品详情
+		//查询缓存
+		try {
+			String json = jedisClient.get();
+			//判断数据是否存在
+			if(StringUtils.isNotBlank(json)){
+				//将json数据转换为java对象
+				TbItem item = JsonUtils.jsonToPojo(json, TbItem.class);
+				return item;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		//缓存中没有就添加缓存
+		TbItemDesc tbItemDesc = itemDescMapper.selectByPrimaryKey(itemId);
+		
+		//向redis中添加缓存
+		try {
+			jedisClient.set(REDIS_ITEM_KEY+":"+itemId+":"+ITEM_DESC_KEY, JsonUtils.objectToJson(tbItemDesc));
+			//设置过期时间
+			jedisClient.expire(REDIS_ITEM_KEY+":"+itemId+":"+ITEM_DESC_KEY, ITEM_EXPIRE_SECOND);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return null;
+	}
+
+}

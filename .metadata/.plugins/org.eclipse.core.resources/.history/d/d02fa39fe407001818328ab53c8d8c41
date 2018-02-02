@@ -1,0 +1,22 @@
+package com.whalesj.portal.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.whalesj.pojo.TbItem;
+import com.whalesj.portal.service.ItemService;
+
+/**
+ * 调用rest工程发布的服务，查询商品信息
+ * @author wushijia
+ *
+ */
+@Service
+public class ItemServiceImpl implements ItemService {
+
+	@Override
+	public TbItem getItemById(Long itemId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

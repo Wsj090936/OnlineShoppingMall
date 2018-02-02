@@ -1,7 +1,0 @@
-0:0:0:0:0:0:0:1 - - [01/Feb/2018:20:09:19 +0800] "GET /search.html?q=%E6%89%8B%E6%9C%BA HTTP/1.1" 200 9783 http-bio-8082-exec-1 2199
-0:0:0:0:0:0:0:1 - - [01/Feb/2018:20:09:47 +0800] "GET /search.html?q=%E6%89%8B%E6%9C%BA HTTP/1.1" 200 64510 http-bio-8082-exec-6 382
-0:0:0:0:0:0:0:1 - - [01/Feb/2018:20:09:47 +0800] "GET /js/jquery.hashchange.js HTTP/1.1" 200 1592 http-bio-8082-exec-1 2
-0:0:0:0:0:0:0:1 - - [01/Feb/2018:20:09:47 +0800] "GET /js/search_main.js HTTP/1.1" 200 119342 http-bio-8082-exec-1 2
-0:0:0:0:0:0:0:1 - - [01/Feb/2018:20:09:47 +0800] "GET /images/bg_hotsale.gif HTTP/1.1" 200 10475 http-bio-8082-exec-1 41
-0:0:0:0:0:0:0:1 - - [01/Feb/2018:20:09:47 +0800] "GET /images/20130606B.png HTTP/1.1" 200 3752 http-bio-8082-exec-7 40
-0:0:0:0:0:0:0:1 - - [01/Feb/2018:20:09:47 +0800] "GET /images/20130415i.png HTTP/1.1" 200 5201 http-bio-8082-exec-7 12

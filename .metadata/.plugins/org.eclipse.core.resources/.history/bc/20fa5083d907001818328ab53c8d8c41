@@ -1,0 +1,51 @@
+package com.whalesj.rest.service.Impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+
+import com.whalesj.common.utils.JsonUtils;
+import com.whalesj.mapper.TbItemMapper;
+import com.whalesj.pojo.TbItem;
+import com.whalesj.rest.component.JedisClient;
+import com.whalesj.rest.service.ItemService;
+
+
+/**
+ * 商品管理Service
+ * @author wushijia
+ *
+ */
+public class ItemServiceImpl implements ItemService {
+	
+	@Autowired
+	private TbItemMapper itemMapper;
+	
+	@Autowired
+	private JedisClient jedisClient;
+	
+	@Value("${REDIS_ITEM_KEY}")
+	private String REDIS_ITEM_KEY;
+	
+	@Value("${ITEM_BASE_INFO_KEY}")
+	private String ITEM_BASE_INFO_KEY;
+	@Value("${ITEM_EXPIRE_SECOND}")
+	private String ITEM_EXPIRE_SECOND;
+
+	@Override
+	public TbItem getItemById(Long itemId) {//根据商品id查询信息
+		//查询redis缓存，有就直接返回
+		
+		//没有就取数据库中查
+		TbItem tbItem = itemMapper.selectByPrimaryKey(itemId);
+		
+		//向redis中添加缓存
+		try {
+			jedisClient.set(REDIS_ITEM_KEY+":"+ITEM_BASE_INFO_KEY+":"+itemId, JsonUtils.objectToJson(tbItem));
+			jedisClient.expire(REDIS_ITEM_KEY+":"+ITEM_BASE_INFO_KEY+":"+itemId, ITEM_EXPIRE_SECOND);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return tbItem;
+	}
+
+}

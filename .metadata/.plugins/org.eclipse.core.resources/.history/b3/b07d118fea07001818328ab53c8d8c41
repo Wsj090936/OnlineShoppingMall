@@ -1,0 +1,7 @@
+package com.whalesj.portal.service;
+
+import com.whalesj.pojo.TbItem;
+
+public interface ItemService {
+	public TbItem getItemById(Long itemId);
+}

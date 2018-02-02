@@ -1,0 +1,13 @@
+package com.whalesj.protal.pojo;
+
+import com.whalesj.pojo.TbItem;
+
+public class PortalItem extends TbItem {
+
+	public String[] getImages(){
+		String images = this.getImage();
+		if(images != null && !images.equals("")){
+			images.split(",");
+		}
+	}
+}

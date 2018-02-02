@@ -1,0 +1,14 @@
+package com.whalesj.portal.service.impl;
+
+import com.whalesj.pojo.TbItem;
+import com.whalesj.portal.service.ItemService;
+
+public class ItemServiceImpl implements ItemService {
+
+	@Override
+	public TbItem getItemById(Long itemId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

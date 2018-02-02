@@ -1,9 +1,12 @@
 com\whalesj\rest\component\Impl\JedisClientSingle.class
+com\whalesj\rest\service\ItemService.class
+com\whalesj\rest\controller\ItemController.class
 com\whalesj\rest\service\ContentService.class
 com\whalesj\rest\pojo\CatNode.class
 com\whalesj\rest\component\Impl\JedisClientCluster.class
 com\whalesj\rest\controller\ContentController.class
 com\whalesj\rest\service\Impl\ContentServiceImpl.class
+com\whalesj\rest\service\Impl\ItemServiceImpl.class
 com\whalesj\rest\controller\ItemCatController.class
 com\whalesj\rest\pojo\ItemCatResult.class
 com\whalesj\rest\service\ItemCatService.class
