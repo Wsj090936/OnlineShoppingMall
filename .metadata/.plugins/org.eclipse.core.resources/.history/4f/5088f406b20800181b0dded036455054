@@ -1,0 +1,11 @@
+package com.whalesj.sso.controller;
+
+
+/**
+ * 用户注册接口Controller
+ * @author wushijia
+ *
+ */
+public class RegisterController {
+
+}

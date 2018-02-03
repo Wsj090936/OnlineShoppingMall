@@ -1,7 +1,0 @@
-package com.whalesj.service;
-
-import com.whalesj.common.pojo.TaotaoResult;
-
-public interface ItemParamService {
-	TaotaoResult getParamByCid(Long cid);
-}

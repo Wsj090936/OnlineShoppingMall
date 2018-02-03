@@ -1,0 +1,34 @@
+package com.whalesj.sso.service.Impl;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.mapper.TbUserMapper;
+import com.whalesj.pojo.TbUser;
+import com.whalesj.sso.service.LoginService;
+
+
+/**
+ * 用户登陆服务
+ * @author wushijia
+ *
+ */
+@Service
+public class LoginServiceImpl implements LoginService {
+	
+	@Autowired
+	private TbUserMapper userMapper;
+
+	@Override
+	public TaotaoResult login(String username, String password, HttpServletRequest request,
+			HttpServletResponse response) {
+		//校验用户名和密码
+		userMapper.selectByExample(example);
+		return null;
+	}
+
+}

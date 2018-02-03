@@ -1,0 +1,29 @@
+package com.whalesj.sso.service.Impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.mapper.TbUserMapper;
+import com.whalesj.sso.service.RegisterService;
+
+
+/**
+ * 注册服务
+ * @author wushijia
+ *
+ */
+@Service
+public class RegisterServiceImpl implements RegisterService {
+	
+	@Autowired
+	private TbUserMapper userMapper;
+
+	@Override
+	public TaotaoResult checkData(String param, int type) {
+		//根据数据类型查询
+		userMapper.selectByExample(example);
+		return null;
+	}
+
+}

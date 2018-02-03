@@ -1,0 +1,18 @@
+package com.whalesj.sso.service.Impl;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.sso.service.LoginService;
+
+public class LoginServiceImpl implements LoginService {
+
+	@Override
+	public TaotaoResult login(String username, String password, HttpServletRequest request,
+			HttpServletResponse response) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

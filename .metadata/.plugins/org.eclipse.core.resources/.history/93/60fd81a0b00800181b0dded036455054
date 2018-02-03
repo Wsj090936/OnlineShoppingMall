@@ -1,0 +1,22 @@
+package com.whalesj.sso.service.Impl;
+
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.sso.service.RegisterService;
+
+
+/**
+ * 注册服务
+ * @author wushijia
+ *
+ */
+@Service
+public class RegisterServiceImpl implements RegisterService {
+
+	@Override
+	public TaotaoResult checkData(String param, int type) {
+		return null;
+	}
+
+}
