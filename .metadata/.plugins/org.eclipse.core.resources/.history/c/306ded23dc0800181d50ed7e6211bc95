@@ -1,0 +1,50 @@
+package com.whalesj.portal.interceptor;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.whalesj.portal.service.UserService;
+
+
+/**
+ * 用户登陆拦截器
+ * @author wushijia
+ *
+ */
+public class LoginInterceptor implements HandlerInterceptor {
+	
+	@Autowired
+	private UserService userService;
+
+	@Override
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
+			throws Exception {//Handler执行之前执行
+//        拦截请求的url          
+//        从cookie中获取token
+//        如果没有token就跳转到登陆界面
+//        取到token，需要调用sso工程来查询用户信息
+//        如果redis中的session已经过期，那么就跳转到登陆界面
+//        如果没有过期，就放行
+
+		return false;
+	}
+
+	@Override
+	public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
+			ModelAndView modelAndView) throws Exception {//返回Model之前执行
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)
+			throws Exception {//完成处理之后执行
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.whalesj.sso.controller;
+
+public class LoginController {
+
+}

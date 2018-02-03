@@ -10,5 +10,6 @@ public interface JedisClient {
 	public Long expire(String key,int second);//设置存活时间
 	public Long ttl(String key);//判断一个key的状态
 	public Long hdel(String key,String item);
+	public Long del(String key);
 	
 }

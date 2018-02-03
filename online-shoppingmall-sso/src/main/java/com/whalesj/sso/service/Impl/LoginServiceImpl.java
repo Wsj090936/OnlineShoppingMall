@@ -6,6 +6,7 @@ import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -73,6 +74,20 @@ public class LoginServiceImpl implements LoginService {
 		CookieUtils.setCookie(request, response, "TOKEN", token);//关闭浏览器之后，cookie失效
 		
 		return TaotaoResult.ok(token);
+	}
+
+	@Override
+	public TaotaoResult getUserByToken(String token) {
+		//根据token到redis查询用户信息
+		String json = jedisClient.get(REDIS_SESSION_KEY+":"+token);
+		if(StringUtils.isBlank(json)){//判断查询的结果
+			return TaotaoResult.build(400, "Session已经过期");
+		}
+		//将json转换为java对象
+		TbUser user = JsonUtils.jsonToPojo(json, TbUser.class);
+		//更新Session的过期时间
+		jedisClient.expire(REDIS_SESSION_KEY+":"+token, SESSION_EXPIRE);
+		return TaotaoResult.ok(user);
 	}
 
 }

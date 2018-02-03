@@ -1,6 +1,13 @@
+com\whalesj\sso\service\Impl\LogOutServiceImpl.class
 com\whalesj\sso\service\Impl\RegisterServiceImpl.class
 com\whalesj\sso\component\Impl\JedisClientSingle.class
 com\whalesj\sso\controller\RegisterController.class
+com\whalesj\sso\controller\LoginController.class
 com\whalesj\sso\service\RegisterService.class
 com\whalesj\sso\component\JedisClient.class
+com\whalesj\sso\service\Impl\LoginServiceImpl.class
+com\whalesj\sso\controller\LogOutController.class
+com\whalesj\sso\controller\PageController.class
+com\whalesj\sso\service\LogOutService.class
 com\whalesj\sso\component\Impl\JedisClientCluster.class
+com\whalesj\sso\service\LoginService.class

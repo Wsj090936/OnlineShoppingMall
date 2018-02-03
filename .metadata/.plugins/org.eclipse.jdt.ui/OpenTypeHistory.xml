@@ -17,7 +17,11 @@
 <typeInfo handle="=online-shoppingmall-search/src\/main\/java&lt;com.whalesj.search.dao{SearchDao.java[SearchDao" modifiers="513" timestamp="1517473746267"/>
 <typeInfo handle="=online-shoppingmall-portal/src\/main\/java&lt;com.whalesj.portal.service{SearchService.java[SearchService" modifiers="513" timestamp="1517484626201"/>
 <typeInfo handle="=online-shoppingmall-manager-service/G:\/MavenRepo\/repo\/org\/springframework\/spring-webmvc\/4.1.3.RELEASE\/spring-webmvc-4.1.3.RELEASE.jar&lt;org.springframework.web.servlet(ModelAndView.class[ModelAndView" modifiers="33" timestamp="1513257698147"/>
-<typeInfo handle="=online-shoppingmall-rest/src\/main\/java&lt;com.whalesj.rest.service{ItemService.java[ItemService" modifiers="513" timestamp="1517547548647"/>
-<typeInfo handle="=online-shoppingmall-portal/src\/main\/java&lt;com.whalesj.portal.service{ItemService.java[ItemService" modifiers="513" timestamp="1517553806290"/>
+<typeInfo handle="=online-shoppingmall-rest/src\/main\/java&lt;com.whalesj.rest.service{ItemService.java[ItemService" modifiers="513" timestamp="1517552232104"/>
+<typeInfo handle="=online-shoppingmall-portal/src\/main\/java&lt;com.whalesj.portal.service{ItemService.java[ItemService" modifiers="513" timestamp="1517557964786"/>
 <typeInfo handle="=online-shoppingmall-manager-pojo/src\/main\/java&lt;com.whalesj.pojo{TbItem.java[TbItem" modifiers="1" timestamp="1516591209626"/>
+<typeInfo handle="=online-shoppingmall-sso/src\/main\/java&lt;com.whalesj.sso.service{RegisterService.java[RegisterService" modifiers="513" timestamp="1517643506998"/>
+<typeInfo handle="=online-shoppingmall-sso/src\/main\/java&lt;com.whalesj.sso.service{LoginService.java[LoginService" modifiers="513" timestamp="1517653189739"/>
+<typeInfo handle="=online-shoppingmall-sso/src\/main\/java&lt;com.whalesj.sso.service{LogOutService.java[LogOutService" modifiers="513" timestamp="1517654215651"/>
+<typeInfo handle="=online-shoppingmall-portal/G:\/MavenRepo\/repo\/org\/springframework\/spring-webmvc\/4.1.3.RELEASE\/spring-webmvc-4.1.3.RELEASE.jar&lt;org.springframework.web.servlet(HandlerInterceptor.class[HandlerInterceptor" modifiers="1537" timestamp="1513257698147"/>
 </typeInfoHistroy>

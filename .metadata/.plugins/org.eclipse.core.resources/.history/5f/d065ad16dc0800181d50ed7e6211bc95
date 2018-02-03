@@ -1,0 +1,44 @@
+package com.whalesj.portal.interceptor;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.whalesj.portal.service.UserService;
+
+
+/**
+ * 用户登陆拦截器
+ * @author wushijia
+ *
+ */
+public class LoginInterceptor implements HandlerInterceptor {
+	
+	@Autowired
+	private UserService userService;
+
+	@Override
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
+			throws Exception {//Handler执行之前执行
+		
+		return false;
+	}
+
+	@Override
+	public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
+			ModelAndView modelAndView) throws Exception {//返回Model之前执行
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)
+			throws Exception {//完成处理之后执行
+		// TODO Auto-generated method stub
+
+	}
+
+}

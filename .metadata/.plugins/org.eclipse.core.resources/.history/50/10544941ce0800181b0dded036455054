@@ -1,0 +1,14 @@
+package com.whalesj.sso.service.Impl;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.sso.service.LogOutService;
+
+public class LogOutServiceImpl implements LogOutService {
+
+	@Override
+	public TaotaoResult logout(String token) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

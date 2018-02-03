@@ -1,4 +1,7 @@
-0:0:0:0:0:0:0:1 - - [03/Feb/2018:15:22:37 +0800] "GET /user/check/zhangsan/1 HTTP/1.1" 200 49 http-bio-8084-exec-1 628
-0:0:0:0:0:0:0:1 - - [03/Feb/2018:15:22:37 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8084-exec-3 3
-0:0:0:0:0:0:0:1 - - [03/Feb/2018:15:23:05 +0800] "GET /user/check/zhangsan6/1 HTTP/1.1" 200 48 http-bio-8084-exec-4 8
-0:0:0:0:0:0:0:1 - - [03/Feb/2018:15:23:27 +0800] "GET /user/check/13333333333/2 HTTP/1.1" 200 49 http-bio-8084-exec-8 10
+0:0:0:0:0:0:0:1 - - [03/Feb/2018:19:37:57 +0800] "GET /page/login HTTP/1.1" 200 4007 http-bio-8084-exec-1 654
+0:0:0:0:0:0:0:1 - - [03/Feb/2018:19:37:57 +0800] "GET /css/login.css HTTP/1.1" 304 - http-bio-8084-exec-7 12
+0:0:0:0:0:0:0:1 - - [03/Feb/2018:19:37:57 +0800] "GET /js/jquery-1.6.4.js HTTP/1.1" 304 - http-bio-8084-exec-2 12
+0:0:0:0:0:0:0:1 - - [03/Feb/2018:19:37:57 +0800] "GET /images/taotao-logo.gif HTTP/1.1" 304 - http-bio-8084-exec-9 2
+0:0:0:0:0:0:0:1 - - [03/Feb/2018:19:37:57 +0800] "GET /images/544a11d3Na5a3d566.png HTTP/1.1" 304 - http-bio-8084-exec-8 3
+0:0:0:0:0:0:0:1 - - [03/Feb/2018:19:37:57 +0800] "GET /images/login-all-bg.png HTTP/1.1" 304 - http-bio-8084-exec-10 3
+0:0:0:0:0:0:0:1 - - [03/Feb/2018:19:38:04 +0800] "POST /user/login HTTP/1.1" 200 82 http-bio-8084-exec-10 715

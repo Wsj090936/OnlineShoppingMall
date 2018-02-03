@@ -1,0 +1,19 @@
+package com.whalesj.sso.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * 展示注册和登陆页面
+ * @author wushijia
+ *
+ */
+public class PageController {
+
+	/**
+	 * 展示登陆页面
+	 */
+	@RequestMapping("/page/login")
+	public String showRegister(){
+		
+	}
+}

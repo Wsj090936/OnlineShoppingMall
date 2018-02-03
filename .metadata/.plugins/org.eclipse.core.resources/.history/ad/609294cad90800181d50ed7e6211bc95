@@ -1,0 +1,25 @@
+package com.whalesj.portal.service.impl;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Service;
+
+import com.whalesj.pojo.TbUser;
+import com.whalesj.portal.service.UserService;
+
+/**
+ * 用户管理拦截器服务
+ * @author wushijia
+ *
+ */
+@Service
+public class UserServiceImpl implements UserService{
+
+	@Override
+	public TbUser getUserByToken(HttpServletRequest request, HttpServletResponse response) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

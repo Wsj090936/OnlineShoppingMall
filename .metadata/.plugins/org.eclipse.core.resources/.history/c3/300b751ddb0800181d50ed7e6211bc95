@@ -1,0 +1,49 @@
+package com.whalesj.portal.service.impl;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.common.utils.CookieUtils;
+import com.whalesj.common.utils.HttpClientUtil;
+import com.whalesj.pojo.TbUser;
+import com.whalesj.portal.service.UserService;
+
+/**
+ * 用户管理拦截器服务
+ * @author wushijia
+ *
+ */
+@Service
+public class UserServiceImpl implements UserService{
+	
+	@Value("${SSO_BASE_URL}")
+	private String SSO_BASE_URL;//sso系统的基础url
+	@Value("${SSO_USER_TOKEN_SERVICE}")
+	private String SSO_USER_TOKEN_SERVICE;//sso系统的查询用户信息服务url
+
+	@Override
+	public TbUser getUserByToken(HttpServletRequest request, HttpServletResponse response) {
+		//从cookie中取token
+		String token = CookieUtils.getCookieValue(request, "TOKEN");
+		//判断token是否有值
+		if(StringUtils.isBlank(token)){
+			return null;
+		}
+		//调用sso服务查询用户信息
+		String json = HttpClientUtil.doGet(SSO_BASE_URL+SSO_USER_TOKEN_SERVICE+token);
+
+		TaotaoResult result = TaotaoResult.format(json);
+		if(result.getStatus() != 200){
+			return null;//过期了
+		}
+		//取用户对象，正常返回
+		TaotaoResult.formatToPojo(json, TbUser.class);
+		return null;
+	}
+
+}

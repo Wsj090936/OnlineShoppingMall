@@ -1,0 +1,5 @@
+package com.whalesj.sso.service;
+
+public interface LogOutService {
+
+}

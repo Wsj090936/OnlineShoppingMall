@@ -1,0 +1,18 @@
+package com.whalesj.sso.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.whalesj.sso.service.LoginService;
+
+/**
+ * 用户登陆Controller
+ * @author wushijia
+ *
+ */
+@Controller
+public class LoginController {
+
+	@Autowired
+	private LoginService loginService;
+}

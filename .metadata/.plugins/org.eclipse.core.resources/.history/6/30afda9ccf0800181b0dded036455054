@@ -1,0 +1,17 @@
+package com.whalesj.sso.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.whalesj.sso.service.LogOutService;
+
+/**
+ * 安全退出接口
+ * @author wushijia
+ *
+ */
+@Controller
+public class LogOutController {
+	@Autowired
+	private LogOutService logoutService;
+}

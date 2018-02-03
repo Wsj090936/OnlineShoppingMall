@@ -1,0 +1,5 @@
+package com.whalesj.portal.service.impl;
+
+public class UserServiceImpl {
+
+}

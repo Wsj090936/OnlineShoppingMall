@@ -70,7 +70,7 @@ public class RegisterServiceImpl implements RegisterService {
 			}
 		}
 		//校验邮箱
-		if(user.getPhone() != null){
+		if(user.getEmail() != null){
 			taotaoResult = checkData(user.getEmail(),3);
 			if(!(boolean) taotaoResult.getData()){
 				return TaotaoResult.build(400, "该邮箱已被注册");

@@ -1,0 +1,28 @@
+package com.whalesj.sso.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.sso.service.LogOutService;
+
+/**
+ * 安全退出接口
+ * @author wushijia
+ *
+ */
+@Controller
+public class LogOutController {
+	@Autowired
+	private LogOutService logoutService;
+	
+	@RequestMapping("/user/logout/{token}")
+	@ResponseBody
+	public Object logout(@PathVariable String token,String callback){
+		TaotaoResult taotaoResult = logoutService.logout(token);
+		return taotaoResult;
+	}
+}

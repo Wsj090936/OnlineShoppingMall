@@ -1,0 +1,35 @@
+package com.whalesj.portal.service.impl;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.utils.CookieUtils;
+import com.whalesj.common.utils.HttpClientUtil;
+import com.whalesj.pojo.TbUser;
+import com.whalesj.portal.service.UserService;
+
+/**
+ * 用户管理拦截器服务
+ * @author wushijia
+ *
+ */
+@Service
+public class UserServiceImpl implements UserService{
+
+	@Override
+	public TbUser getUserByToken(HttpServletRequest request, HttpServletResponse response) {
+		//从cookie中取token
+		String token = CookieUtils.getCookieValue(request, "TOKEN");
+		//判断token是否有值
+		if(StringUtils.isBlank(token)){
+			return null;
+		}
+		//调用sso服务查询用户信息
+		HttpClientUtil.doGet(url);
+		return null;
+	}
+
+}
