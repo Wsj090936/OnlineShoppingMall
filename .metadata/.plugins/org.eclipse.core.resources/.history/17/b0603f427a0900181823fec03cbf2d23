@@ -1,0 +1,68 @@
+package com.whalesj.portal.service.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.common.utils.CookieUtils;
+import com.whalesj.common.utils.JsonUtils;
+import com.whalesj.pojo.TbItem;
+import com.whalesj.portal.service.CartService;
+import com.whalesj.portal.service.ItemService;
+import com.whalesj.protal.pojo.CartItem;
+
+
+/**
+ * 购物车实现
+ * @author wushijia
+ *
+ */
+@Service
+public class CartServiceImpl implements CartService {
+	
+	@Autowired
+	private ItemService itemService;
+
+	@Override
+	public TaotaoResult addCart(Long itemId, Integer itemNum, HttpServletRequest request,
+			HttpServletResponse response) {
+		//接收商品id
+		//从cookie中取出商品列表
+		List<CartItem> cartItemList = getCartItemList(request);
+		boolean flag = false;
+		for (CartItem cartItem : cartItemList) {
+			if(cartItem.getId() == itemId){//商品存在就添加数量
+				cartItem.setNum(cartItem.getNum()+itemNum);
+				flag = true;
+				break;
+			}
+		}
+		if(!flag){//购物车中不存在该商品
+			TbItem item = itemService.getItemById(itemId);
+			//转换为购物车对象
+			CartItem cartItem = new CartItem();
+			cartItem.setId(itemId);
+			cartItem.setNum(itemNum);
+		}
+		return null;
+	}
+
+	private List<CartItem> getCartItemList(HttpServletRequest request){
+		try {
+			String json = CookieUtils.getCookieValue(request, "CART", true);//取到购物车的json数据
+			//将取到的json转换为java对象
+			List<CartItem> list = JsonUtils.jsonToList(json, CartItem.class);
+			return list==null?new ArrayList<>():list;
+		} catch (Exception e) {
+			return new ArrayList<>();
+		}
+	}
+
+
+}

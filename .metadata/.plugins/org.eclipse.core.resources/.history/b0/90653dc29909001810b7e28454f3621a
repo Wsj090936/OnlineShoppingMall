@@ -1,0 +1,12 @@
+package com.whalesj.portal.controller;
+
+import org.springframework.stereotype.Controller;
+/**
+ * 生成订单处理
+ * @author wushijia
+ *
+ */
+@Controller
+public class OrderController {
+
+}

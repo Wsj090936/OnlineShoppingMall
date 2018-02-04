@@ -1,0 +1,25 @@
+package com.whalesj.portal.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.whalesj.portal.service.CartService;
+
+/**
+ * 购物车Controller
+ * @author wushijia
+ *
+ */
+@Controller
+public class CartController {
+
+	@Autowired
+	private CartService cartService;
+	
+	@RequestMapping("/cart/add/{itemId}")
+	public String addCart(@PathVariable Long itemId,Integer itemNum){
+		
+	}
+}

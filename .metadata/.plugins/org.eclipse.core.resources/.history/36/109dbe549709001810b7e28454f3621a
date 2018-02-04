@@ -1,0 +1,10 @@
+package com.whalesj.order.controller;
+
+import org.springframework.stereotype.Controller;
+
+import com.whalesj.order.service.OrderService;
+
+@Controller
+public class OrderController {
+	private OrderService orderService;
+}

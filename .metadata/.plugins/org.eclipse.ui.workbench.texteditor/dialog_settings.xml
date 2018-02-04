@@ -2,22 +2,23 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="login()" key="selection"/>
+		<item value="online-shoppingmall-order" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="online-shoppingmall-rest"/>
+			<item value="addCart"/>
 			<item value="login()"/>
 			<item value="regName"/>
 			<item value="REGISTER"/>
-			<item value="online-shoppingmall-rest"/>
 			<item value="搜索"/>
 			<item value="online-shoppingmall-manager"/>
 			<item value="itemParams"/>
-			<item value="itemAddForm"/>
 		</list>
 		<list key="replacehistory">
+			<item value="online-shoppingmall-order"/>
 			<item value="online-shoppingmall-sso"/>
 			<item value="online-shoppingmall-search"/>
 			<item value="online-shoppingmall-portal"/>

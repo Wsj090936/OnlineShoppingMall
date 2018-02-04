@@ -1,0 +1,18 @@
+package com.whalesj.portal.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.whalesj.portal.service.CartService;
+
+/**
+ * 购物车Controller
+ * @author wushijia
+ *
+ */
+@Controller
+public class CartController {
+
+	@Autowired
+	private CartService cartService;
+}

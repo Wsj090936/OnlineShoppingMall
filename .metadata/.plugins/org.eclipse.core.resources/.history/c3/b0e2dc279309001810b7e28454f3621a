@@ -1,0 +1,15 @@
+package com.whalesj.order.service.Impl;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.order.pojo.OrderInfo;
+import com.whalesj.order.service.OrderService;
+
+public class OrderServiceImpl implements OrderService {
+
+	@Override
+	public TaotaoResult createOrderInfo(OrderInfo orderInfo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

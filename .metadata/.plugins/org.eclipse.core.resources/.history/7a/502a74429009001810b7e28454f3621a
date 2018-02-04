@@ -1,0 +1,8 @@
+package com.whalesj.order.pojo;
+
+import com.whalesj.pojo.TbOrder;
+
+public class OrderInfo extends TbOrder {
+	private List<TbOrderItem> orderItems;
+	pricate TbOrderShipping ordershipping;
+}

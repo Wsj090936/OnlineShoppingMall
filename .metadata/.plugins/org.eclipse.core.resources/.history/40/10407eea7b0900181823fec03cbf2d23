@@ -1,0 +1,28 @@
+package com.whalesj.portal.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.whalesj.portal.service.CartService;
+
+/**
+ * 购物车Controller
+ * @author wushijia
+ *
+ */
+@Controller
+public class CartController {
+
+	@Autowired
+	private CartService cartService;
+	
+	@RequestMapping("/cart/add/{itemId}")
+	public String addCart(@PathVariable Long itemId,Integer itemNum,HttpServletRequest request,HttpServletResponse response){
+		cartService.addCart(itemId, itemNum, request, response);
+	}
+}

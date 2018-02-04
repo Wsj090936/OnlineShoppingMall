@@ -1,0 +1,5 @@
+package com.whalesj.portal.service;
+
+public interface OrderService {
+	public String createOrder(OrderI);
+}

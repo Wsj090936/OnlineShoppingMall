@@ -39,8 +39,8 @@ public class LoginInterceptor implements HandlerInterceptor {
 			return false;
 		}
 //        如果redis中的session已经过期，那么就跳转到登陆界面
-//        如果没有过期，就放行
-
+//        如果没有过期，就放行，将用户添加到request中
+		request.setAttribute("user", user);
 		return true;
 	}
 

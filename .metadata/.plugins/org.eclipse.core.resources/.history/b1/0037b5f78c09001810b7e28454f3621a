@@ -1,0 +1,16 @@
+#内容缓存在redis中的key
+REDIS_CONTENT_KEY=REDIS_CONTENT_KEY
+
+
+#以下只是为了分组方便二设置的
+#reids中商品信息key
+REDIS_ITEM_KEY=REDIS_ITEM
+#redis中商品的基本信息key
+ITEM_BASE_INFO_KEY=ITEM_BASE_INFO
+#商品的描述
+ITEM_DESC_KEY=ITEM_DESC
+#商品的规格参数
+ITEM_PARAM_KEY=ITEM_PARAM
+
+#商品信息缓存的过期时间(60*60*24)
+ITEM_EXPIRE_SECOND=86400

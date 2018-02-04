@@ -1,5 +1,0 @@
-package com.whalesj.service;
-
-public interface ContentCatgoryService {
-	List<EasyUiTreeNode> getContentCatList();
-}

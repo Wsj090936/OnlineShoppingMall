@@ -1,0 +1,44 @@
+package com.whalesj.portal.controller;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.whalesj.portal.service.CartService;
+import com.whalesj.protal.pojo.CartItem;
+import com.whalesj.protal.pojo.OrderInfo;
+
+
+
+
+
+/**
+ * 生成订单处理
+ * @author wushijia
+ *
+ */
+@Controller
+@RequestMapping("/order")
+public class OrderController {
+
+	@Autowired
+	private CartService cartService;
+	
+	@RequestMapping("/order-cart")
+	public String showOrderCart(Model model,HttpServletRequest request){
+		//取商品列表
+		List<CartItem> list = cartService.getCartItems(request);
+		model.addAttribute("cartList", list);
+		return  "order-cart";
+	}
+	@RequestMapping(value="/create",method=RequestMethod.POST)
+	public String createOrder(OrderInfo orderInfo,Model model,HttpServletRequest request){
+		
+	}
+}

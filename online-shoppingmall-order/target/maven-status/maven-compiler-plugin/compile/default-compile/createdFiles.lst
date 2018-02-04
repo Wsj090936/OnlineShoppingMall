@@ -1,0 +1,7 @@
+com\whalesj\order\pojo\OrderInfo.class
+com\whalesj\order\service\OrderService.class
+com\whalesj\order\component\JedisClient.class
+com\whalesj\order\controller\OrderController.class
+com\whalesj\order\component\Impl\JedisClientCluster.class
+com\whalesj\order\component\Impl\JedisClientSingle.class
+com\whalesj\order\service\Impl\OrderServiceImpl.class

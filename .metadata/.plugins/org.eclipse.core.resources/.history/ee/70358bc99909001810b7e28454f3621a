@@ -1,0 +1,22 @@
+package com.whalesj.portal.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+
+
+
+/**
+ * 生成订单处理
+ * @author wushijia
+ *
+ */
+@Controller
+@RequestMapping("/order")
+public class OrderController {
+
+	@Autowired
+	private 
+}

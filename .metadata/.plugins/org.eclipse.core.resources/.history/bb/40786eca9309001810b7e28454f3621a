@@ -1,0 +1,28 @@
+package com.whalesj.order.service.Impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.mapper.TbOrderItemMapper;
+import com.whalesj.mapper.TbOrderMapper;
+import com.whalesj.mapper.TbOrderShippingMapper;
+import com.whalesj.order.pojo.OrderInfo;
+import com.whalesj.order.service.OrderService;
+
+public class OrderServiceImpl implements OrderService {
+
+	@Autowired
+	private TbOrderItemMapper orderItemMapper;//订单明细
+	
+	@Autowired
+	private TbOrderMapper orderMapper;//订单表
+	
+	@Autowired
+	private TbOrderShippingMapper shippingMapper;//明细表
+	@Override
+	public TaotaoResult createOrderInfo(OrderInfo orderInfo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

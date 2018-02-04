@@ -1,0 +1,44 @@
+package com.whalesj.order.service.Impl;
+
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+
+import com.whalesj.common.pojo.TaotaoResult;
+import com.whalesj.mapper.TbOrderItemMapper;
+import com.whalesj.mapper.TbOrderMapper;
+import com.whalesj.mapper.TbOrderShippingMapper;
+import com.whalesj.order.component.JedisClient;
+import com.whalesj.order.pojo.OrderInfo;
+import com.whalesj.order.service.OrderService;
+
+public class OrderServiceImpl implements OrderService {
+
+	@Autowired
+	private TbOrderItemMapper orderItemMapper;//订单明细
+	
+	@Autowired
+	private TbOrderMapper orderMapper;//订单表
+	
+	@Autowired
+	private TbOrderShippingMapper shippingMapper;//明细表
+	
+	@Autowired
+	private JedisClient jedisClient;
+	
+	@Value("${REDIS_ORDER_GEN_KEY}")
+	private String REDIS_ORDER_GEN_KEY;//redis中订单id的key
+	@Value("${ORDER_ID_BEGIN}")
+	private String ORDER_ID_BEGIN;//redis中订单id的初始值
+	@Override
+	public TaotaoResult createOrderInfo(OrderInfo orderInfo) {
+		//生成订单号
+		String id = jedisClient.get(REDIS_ORDER_GEN_KEY);
+		if(StringUtils.isBlank(){
+			
+		}
+		jedisClient.incr(key);
+		return null;
+	}
+
+}

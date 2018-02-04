@@ -1,0 +1,9 @@
+package com.whalesj.protal.pojo;
+
+public class CartItem {
+	private Long id;
+	private String title;
+	private String image;
+	private Long price;
+	
+}

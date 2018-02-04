@@ -1,0 +1,10 @@
+package com.whalesj.portal.service;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.whalesj.common.pojo.TaotaoResult;
+
+public interface CartService {
+	public TaotaoResult addCart(Long itemId,Integer itemNum,HttpServletRequest request ,HttpServletResponse response);
+}

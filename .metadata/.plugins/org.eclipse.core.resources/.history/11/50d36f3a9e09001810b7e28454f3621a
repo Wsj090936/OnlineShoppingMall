@@ -1,0 +1,24 @@
+package com.whalesj.portal.service.impl;
+
+import org.springframework.beans.factory.annotation.Value;
+
+import com.whalesj.common.utils.HttpClientUtil;
+import com.whalesj.common.utils.JsonUtils;
+import com.whalesj.portal.service.OrderService;
+import com.whalesj.protal.pojo.OrderInfo;
+
+public class OrderServiceImpl implements OrderService {
+	
+	@Value("${ORDER_BASE_URL}")
+	private String ORDER_BASE_URL;
+
+	@Override
+	public String createOrder(OrderInfo orderInfo) {
+		//将orderInfo转换为json
+		String json = JsonUtils.objectToJson(orderInfo);
+		//提交订单数据
+		HttpClientUtil.doPostJson(url, json);
+		return null;
+	}
+
+}

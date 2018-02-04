@@ -1,0 +1,7 @@
+G:\OnlineShoppingMall\online-shoppingmall-order\src\main\java\com\whalesj\order\service\OrderService.java
+G:\OnlineShoppingMall\online-shoppingmall-order\src\main\java\com\whalesj\order\controller\OrderController.java
+G:\OnlineShoppingMall\online-shoppingmall-order\src\main\java\com\whalesj\order\component\JedisClient.java
+G:\OnlineShoppingMall\online-shoppingmall-order\src\main\java\com\whalesj\order\component\Impl\JedisClientSingle.java
+G:\OnlineShoppingMall\online-shoppingmall-order\src\main\java\com\whalesj\order\service\Impl\OrderServiceImpl.java
+G:\OnlineShoppingMall\online-shoppingmall-order\src\main\java\com\whalesj\order\pojo\OrderInfo.java
+G:\OnlineShoppingMall\online-shoppingmall-order\src\main\java\com\whalesj\order\component\Impl\JedisClientCluster.java
